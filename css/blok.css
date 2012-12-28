@@ -73,9 +73,6 @@ End Custom CSS for IE
 	padding-left: 1em;
 	padding-right: 1em;
 }
-.nest {
-	padding:0;
-}
 .row, .col_1, .col_2, .col_2_alt_1, .col_2_alt_2, .col_3, .col_3_alt_1, .col_3_alt_2, .col_4, .col_4_alt_1, .col_4_alt_2, .col_4_alt_3, .col_4_alt_4, .col_golden_sb_l, .col_golden_ct_r, .col_golden_sb_l_alt_1, .col_golden_ct_r_alt_1, .col_golden_sb_l_alt_2, .col_golden_ct_r_alt_2, .col_golden_ct_l, .col_golden_sb_r, .col_golden_ct_l_alt_1, .col_golden_sb_r_alt_1, .col_golden_ct_l_alt_2, .col_golden_sb_r_alt_2 {
 	float: left;
 	display: block;
@@ -208,4 +205,7 @@ Custom CSS for Desktop
 End Custom CSS for Desktop
 */
 
+}
+.nest {
+	padding:0;
 }
