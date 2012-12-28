@@ -94,16 +94,16 @@ End Custom CSS for IE
 .row, .col_2_alt_2:nth-child(2n+2), .col_3_alt_2:nth-child(3n+2), .col_3_alt_2:nth-child(3n+3), .col_4_alt_2:nth-child(4n+2), .col_4_alt_2:nth-child(4n+4), .col_4_alt_3:nth-child(4n+2), .col_4_alt_3:nth-child(4n+4), .col_4_alt_4:nth-child(4n+2), .col_4_alt_4:nth-child(4n+3), .col_4_alt_4:nth-child(4n+4), .col_golden_ct_r_alt_2, .col_golden_sb_r_alt_2 {
 	clear: none;
 }
-.row, .col_1, .col_2:nth-child(2n+1), .col_2:nth-child(2n+2), .col_2_alt_1:nth-child(2n+1), .col_2_alt_1:nth-child(2n+2), .col_3:nth-child(3n+1), .col_3:nth-child(3n+2), .col_3:nth-child(3n+3), .col_3_alt_1:nth-child(3n+1), .col_3_alt_1:nth-child(3n+2), .col_3_alt_1:nth-child(3n+3), .col_4:nth-child(4n+1), .col_4:nth-child(4n+2), .col_4:nth-child(4n+3), .col_4:nth-child(4n+4), .col_4_alt_1:nth-child(4n+1), .col_4_alt_1:nth-child(4n+2), .col_4_alt_1:nth-child(4n+3), .col_4_alt_1:nth-child(4n+4), .col_golden_sb_l, .col_golden_ct_r, .col_golden_sb_l_alt_1, .col_golden_ct_r_alt_1, .col_golden_ct_l, .col_golden_sb_r, .col_golden_ct_l_alt_1, .col_golden_sb_r_alt_1 {
+.row, .col_1, .col_2, .col_2_alt_1, .col_3, .col_3_alt_1, .col_4, .col_4_alt_1, .col_golden_sb_l, .col_golden_ct_r, .col_golden_sb_l_alt_1, .col_golden_ct_r_alt_1, .col_golden_ct_l, .col_golden_sb_r, .col_golden_ct_l_alt_1, .col_golden_sb_r_alt_1 {
 	width: 100%;
 }
-.col_2_alt_2:nth-child(2n+1), .col_2_alt_2:nth-child(2n+2), .col_4_alt_2:nth-child(4n+1), .col_4_alt_2:nth-child(4n+2), .col_4_alt_2:nth-child(4n+3), .col_4_alt_2:nth-child(4n+4), .col_4_alt_3:nth-child(4n+1), .col_4_alt_3:nth-child(4n+2), .col_4_alt_3:nth-child(4n+3), .col_4_alt_3:nth-child(4n+4) {
+.col_2_alt_2, .col_4_alt_2, .col_4_alt_3 {
 	width: 50%;
 }
-.col_3_alt_2:nth-child(3n+1), .col_3_alt_2:nth-child(3n+2), .col_3_alt_2:nth-child(3n+3) {
+.col_3_alt_2 {
 	width: 33.3333333%;
 }
-.col_4_alt_4:nth-child(4n+1), .col_4_alt_4:nth-child(4n+2), .col_4_alt_4:nth-child(4n+3), .col_4_alt_4:nth-child(4n+4) {
+.col_4_alt_4 {
 	width: 25%;
 }
 .col_golden_sb_l_alt_2, .col_golden_sb_r_alt_2 {
@@ -136,16 +136,16 @@ End Custom CSS for Mobile
 .col_2_alt_1:nth-child(2n+2), .col_2_alt_2:nth-child(2n+2), .col_3_alt_1:nth-child(3n+2), .col_3_alt_1:nth-child(3n+3), .col_3_alt_2:nth-child(3n+2), .col_3_alt_2:nth-child(3n+3), .col_4_alt_1:nth-child(4n+2), .col_4_alt_1:nth-child(4n+4), .col_4_alt_2:nth-child(4n+2), .col_4_alt_2:nth-child(4n+4), .col_4_alt_3:nth-child(4n+2), .col_4_alt_3:nth-child(4n+3), .col_4_alt_3:nth-child(4n+4), .col_4_alt_4:nth-child(4n+2), .col_4_alt_4:nth-child(4n+3), .col_4_alt_4:nth-child(4n+4), .col_golden_ct_r_alt_1, .col_golden_ct_r_alt_2, .col_golden_sb_r_alt_1, .col_golden_sb_r_alt_2 {
 	clear: none;
 }
-.row, .col_1, .col_2:nth-child(2n+1), .col_2:nth-child(2n+2), .col_3:nth-child(3n+1), .col_3:nth-child(3n+2), .col_3:nth-child(3n+3), .col_4:nth-child(4n+1), .col_4:nth-child(4n+2), .col_4:nth-child(4n+3), .col_4:nth-child(4n+4), .col_golden_sb_l, .col_golden_ct_r, .col_golden_ct_l, .col_golden_sb_r {
+.row, .col_1, .col_2, .col_3, .col_4, .col_golden_sb_l, .col_golden_ct_r, .col_golden_ct_l, .col_golden_sb_r {
 	width: 100%;
 }
-.col_2_alt_1:nth-child(2n+1), .col_2_alt_1:nth-child(2n+2), .col_2_alt_2:nth-child(2n+1), .col_2_alt_2:nth-child(2n+2), .col_4_alt_1:nth-child(4n+1), .col_4_alt_1:nth-child(4n+2), .col_4_alt_1:nth-child(4n+3), .col_4_alt_1:nth-child(4n+4), .col_4_alt_2:nth-child(4n+1), .col_4_alt_2:nth-child(4n+2), .col_4_alt_2:nth-child(4n+3), .col_4_alt_2:nth-child(4n+4) {
+.col_2_alt_1, .col_2_alt_2, .col_4_alt_1, .col_4_alt_2 {
 	width: 50%;
 }
-.col_3_alt_1:nth-child(3n+1), .col_3_alt_1:nth-child(3n+2), .col_3_alt_1:nth-child(3n+3), .col_3_alt_2:nth-child(3n+1), .col_3_alt_2:nth-child(3n+2), .col_3_alt_2:nth-child(3n+3) {
+.col_3_alt_1, .col_3_alt_2 {
 	width: 33.3333333%;
 }
-.col_4_alt_3:nth-child(4n+1), .col_4_alt_3:nth-child(4n+2), .col_4_alt_3:nth-child(4n+3), .col_4_alt_3:nth-child(4n+4), .col_4_alt_4:nth-child(4n+1), .col_4_alt_4:nth-child(4n+2), .col_4_alt_4:nth-child(4n+3), .col_4_alt_4:nth-child(4n+4) {
+.col_4_alt_3, .col_4_alt_4 {
 	width: 25%;
 }
 .col_golden_sb_l_alt_1, .col_golden_sb_l_alt_2, .col_golden_sb_r_alt_1, .col_golden_sb_r_alt_2 {
@@ -184,13 +184,13 @@ End Custom CSS for Tablet
 .row, .col_1 {
 	width: 100%;
 }
-.col_2:nth-child(2n+1), .col_2:nth-child(2n+2), .col_2_alt_1:nth-child(2n+1), .col_2_alt_1:nth-child(2n+2), .col_2_alt_2:nth-child(2n+1), .col_2_alt_2:nth-child(2n+2) {
+.col_2, .col_2_alt_1, .col_2_alt_2 {
 	width: 50%;
 }
-.col_3:nth-child(3n+1), .col_3:nth-child(3n+2), .col_3:nth-child(3n+3), .col_3_alt_1:nth-child(3n+1), .col_3_alt_1:nth-child(3n+2), .col_3_alt_1:nth-child(3n+3), .col_3_alt_2:nth-child(3n+1), .col_3_alt_2:nth-child(3n+2), .col_3_alt_2:nth-child(3n+3) {
+.col_3, .col_3_alt_1, .col_3_alt_2 {
 	width: 33.3333333%;
 }
-.col_4:nth-child(4n+1), .col_4:nth-child(4n+2), .col_4:nth-child(4n+3), .col_4:nth-child(4n+4), .col_4_alt_1:nth-child(4n+1), .col_4_alt_1:nth-child(4n+2), .col_4_alt_1:nth-child(4n+3), .col_4_alt_1:nth-child(4n+4), .col_4_alt_2:nth-child(4n+1), .col_4_alt_2:nth-child(4n+2), .col_4_alt_2:nth-child(4n+3), .col_4_alt_2:nth-child(4n+4), .col_4_alt_3:nth-child(4n+1), .col_4_alt_3:nth-child(4n+2), .col_4_alt_3:nth-child(4n+3), .col_4_alt_3:nth-child(4n+4), .col_4_alt_4:nth-child(4n+1), .col_4_alt_4:nth-child(4n+2), .col_4_alt_4:nth-child(4n+3), .col_4_alt_4:nth-child(4n+4) {
+.col_4, .col_4_alt_1, .col_4_alt_2, .col_4_alt_3, .col_4_alt_4 {
 	width: 25%;
 }
 .col_golden_sb_l, .col_golden_sb_l_alt_1, .col_golden_sb_l_alt_2, .col_golden_sb_r, .col_golden_sb_r_alt_1, .col_golden_sb_r_alt_2 {
