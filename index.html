@@ -1,113 +1,516 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="ie6 iex"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 iex"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 iex"> <![endif]-->
 <!--[if gt IE 8]><!-->
+
 <html class="no-js">
 <!--<![endif]-->
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blok Framework</title>
-<link href="css/blok.css" rel="stylesheet" type="text/css">
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blok Framework</title>
+    <link href="css/blok.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
 .col_1, .col_2, .col_2_alt_1, .col_2_alt_2, .col_3, .col_3_alt_1, .col_3_alt_2, .col_3_alt_3, .col_4, .col_4_alt_1, .col_4_alt_2, .col_4_alt_3, .col_4_alt_4, .col_golden_sb_l, .col_golden_ct_r, .col_golden_sb_l_alt_1, .col_golden_ct_r_alt_1, .col_golden_sb_l_alt_2, .col_golden_ct_r_alt_2, .col_golden_ct_l, .col_golden_sb_r, .col_golden_ct_l_alt_1, .col_golden_sb_r_alt_1, .col_golden_ct_l_alt_2, .col_golden_sb_r_alt_2 {
-	background-color: #D6D5D6;
-	border: solid 1px #A2A2A2;
-}
-</style>
+    background-color: #D6D5D6;
+    }
+    </style>
 </head>
+
 <body>
-<div class="container clearfix">
-  <div class="row">
-    <div class="col_1">col_1 - full - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_2">col_2 - half - full - full</div>
-    <div class="col_2">col_2 - half - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_2_alt_1">col_2_alt_1 - half - half - full</div>
-    <div class="col_2_alt_1">col_2_alt_1 - half - half - full</div>
-  </div>
-  <div class="row">
-    <div class="col_2_alt_2">col_2_alt_2 - half - half - half</div>
-    <div class="col_2_alt_2">col_2_alt_2 - half - half - half</div>
-  </div>
-  <div class="row">
-    <div class="col_3">col_3 - third - full - full</div>
-    <div class="col_3">col_3 - third - full - full</div>
-    <div class="col_3">col_3 - third - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_3_alt_1">col_3_alt_1 - third - third - full</div>
-    <div class="col_3_alt_1">col_3_alt_1 - third - third - full</div>
-    <div class="col_3_alt_1">col_3_alt_1 - third - third - full</div>
-  </div>
-  <div class="row">
-    <div class="col_3_alt_2">col_3_alt_2 - third - third - third</div>
-    <div class="col_3_alt_2">col_3_alt_2 - third - third - third</div>
-    <div class="col_3_alt_2">col_3_alt_2 - third - third - third</div>
-  </div>
-  <div class="row">
-    <div class="col_3_alt_3">col_3_alt_3 - third - full - third</div>
-    <div class="col_3_alt_3">col_3_alt_3 - third - full - third</div>
-    <div class="col_3_alt_3">col_3_alt_3 - third - full - third</div>
-  </div>
-  <div class="row">
-    <div class="col_4">col_4 - quarter - full - full</div>
-    <div class="col_4">col_4 - quarter - full - full</div>
-    <div class="col_4">col_4 - quarter - full - full</div>
-    <div class="col_4">col_4 - quarter - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_4_alt_1">col_4_alt_1 - quarter - half - full</div>
-    <div class="col_4_alt_1">col_4_alt_1 - quarter - half - full</div>
-    <div class="col_4_alt_1">col_4_alt_1 - quarter - half - full</div>
-    <div class="col_4_alt_1">col_4_alt_1 - quarter - half - full</div>
-  </div>
-  <div class="row">
-    <div class="col_4_alt_2">col_4_alt_2 - quarter - half - half</div>
-    <div class="col_4_alt_2">col_4_alt_2 - quarter - half - half</div>
-    <div class="col_4_alt_2">col_4_alt_2 - quarter - half - half</div>
-    <div class="col_4_alt_2">col_4_alt_2 - quarter - half - half</div>
-  </div>
-  <div class="row">
-    <div class="col_4_alt_3">col_4_alt_3 - quarter - quarter - half</div>
-    <div class="col_4_alt_3">col_4_alt_3 - quarter - quarter - half</div>
-    <div class="col_4_alt_3">col_4_alt_3 - quarter - quarter - half</div>
-    <div class="col_4_alt_3">col_4_alt_3 - quarter - quarter - half</div>
-  </div>
-  <div class="row">
-    <div class="col_4_alt_4">col_4_alt_4 - quarter - quarter - quarter</div>
-    <div class="col_4_alt_4">col_4_alt_4 - quarter - quarter - quarter</div>
-    <div class="col_4_alt_4">col_4_alt_4 - quarter - quarter - quarter</div>
-    <div class="col_4_alt_4">col_4_alt_4 - quarter - quarter - quarter</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_sb_l">col_golden_sb_l - sidebar left - full - full</div>
-    <div class="col_golden_ct_r">col_golden_ct_r - content right - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_sb_l_alt_1">col_golden_sb_l_alt_1 - sidebar left - sidebar left - full</div>
-    <div class="col_golden_ct_r_alt_1">col_golden_ct_r_alt_1 - content right - content right - full</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_sb_l_alt_2">col_golden_sb_l_alt_2 - sidebar left - sidebar left - sidebar left</div>
-    <div class="col_golden_ct_r_alt_2">col_golden_ct_r_alt_2 - content right - content right - content right</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_ct_l">col_golden_ct_l - content left - full - full</div>
-    <div class="col_golden_sb_r">col_golden_sb_r - sidebar right - full - full</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_ct_l_alt_1">col_golden_ct_l_alt_1 - content left - content left - full</div>
-    <div class="col_golden_sb_r_alt_1">col_golden_sb_r_alt_1 - sidebar right - sidebar right - full</div>
-  </div>
-  <div class="row">
-    <div class="col_golden_ct_l_alt_2">col_golden_ct_l_alt_2 - content left - content left - content left</div>
-    <div class="col_golden_sb_r_alt_2">col_golden_sb_r_alt_2 - sidebar right - sidebar right - sidebar right</div>
-  </div>
-</div>
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col_1">
+                col_1 - full - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2">
+                col_2 - half - full - full
+            </div>
+
+            <div class="col_2">
+                col_2 - half - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2_alt_1">
+                col_2_alt_1 - half - half - full
+            </div>
+
+            <div class="col_2_alt_1">
+                col_2_alt_1 - half - half - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2_alt_2">
+                col_2_alt_2 - half - half - half
+            </div>
+
+            <div class="col_2_alt_2">
+                col_2_alt_2 - half - half - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3">
+                col_3 - third - full - full
+            </div>
+
+            <div class="col_3">
+                col_3 - third - full - full
+            </div>
+
+            <div class="col_3">
+                col_3 - third - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_1">
+                col_3_alt_1 - third - third - full
+            </div>
+
+            <div class="col_3_alt_1">
+                col_3_alt_1 - third - third - full
+            </div>
+
+            <div class="col_3_alt_1">
+                col_3_alt_1 - third - third - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_2">
+                col_3_alt_2 - third - third - third
+            </div>
+
+            <div class="col_3_alt_2">
+                col_3_alt_2 - third - third - third
+            </div>
+
+            <div class="col_3_alt_2">
+                col_3_alt_2 - third - third - third
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_3">
+                col_3_alt_3 - third - full - third
+            </div>
+
+            <div class="col_3_alt_3">
+                col_3_alt_3 - third - full - third
+            </div>
+
+            <div class="col_3_alt_3">
+                col_3_alt_3 - third - full - third
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4">
+                col_4 - quarter - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_1">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1">
+                col_4_alt_1 - quarter - half - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_2">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2">
+                col_4_alt_2 - quarter - half - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_3">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_4">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l">
+                col_golden_sb_l - sidebar left - full - full
+            </div>
+
+            <div class="col_golden_ct_r">
+                col_golden_ct_r - content right - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l_alt_1">
+                col_golden_sb_l_alt_1 - sidebar left - sidebar left - full
+            </div>
+
+            <div class="col_golden_ct_r_alt_1">
+                col_golden_ct_r_alt_1 - content right - content right - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l_alt_2">
+                col_golden_sb_l_alt_2 - sidebar left - sidebar left - sidebar left
+            </div>
+
+            <div class="col_golden_ct_r_alt_2">
+                col_golden_ct_r_alt_2 - content right - content right - content right
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l">
+                col_golden_ct_l - content left - full - full
+            </div>
+
+            <div class="col_golden_sb_r">
+                col_golden_sb_r - sidebar right - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l_alt_1">
+                col_golden_ct_l_alt_1 - content left - content left - full
+            </div>
+
+            <div class="col_golden_sb_r_alt_1">
+                col_golden_sb_r_alt_1 - sidebar right - sidebar right - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l_alt_2">
+                col_golden_ct_l_alt_2 - content left - content left - content left
+            </div>
+
+            <div class="col_golden_sb_r_alt_2">
+                col_golden_sb_r_alt_2 - sidebar right - sidebar right - sidebar right
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_1">
+                <h1>Elements with .zero class for nesting</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_1 zero">
+                col_1 - full - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2 zero">
+                col_2 - half - full - full
+            </div>
+
+            <div class="col_2 zero">
+                col_2 - half - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2_alt_1 zero">
+                col_2_alt_1 - half - half - full
+            </div>
+
+            <div class="col_2_alt_1 zero">
+                col_2_alt_1 - half - half - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_2_alt_2 zero">
+                col_2_alt_2 - half - half - half
+            </div>
+
+            <div class="col_2_alt_2 zero">
+                col_2_alt_2 - half - half - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3 zero">
+                col_3 - third - full - full
+            </div>
+
+            <div class="col_3 zero">
+                col_3 - third - full - full
+            </div>
+
+            <div class="col_3 zero">
+                col_3 - third - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_1 zero">
+                col_3_alt_1 - third - third - full
+            </div>
+
+            <div class="col_3_alt_1 zero">
+                col_3_alt_1 - third - third - full
+            </div>
+
+            <div class="col_3_alt_1 zero">
+                col_3_alt_1 - third - third - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_2 zero">
+                col_3_alt_2 - third - third - third
+            </div>
+
+            <div class="col_3_alt_2 zero">
+                col_3_alt_2 - third - third - third
+            </div>
+
+            <div class="col_3_alt_2 zero">
+                col_3_alt_2 - third - third - third
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_3_alt_3 zero">
+                col_3_alt_3 - third - full - third
+            </div>
+
+            <div class="col_3_alt_3 zero">
+                col_3_alt_3 - third - full - third
+            </div>
+
+            <div class="col_3_alt_3 zero">
+                col_3_alt_3 - third - full - third
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4 zero">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4 zero">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4 zero">
+                col_4 - quarter - full - full
+            </div>
+
+            <div class="col_4 zero">
+                col_4 - quarter - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_1 zero">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1 zero">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1 zero">
+                col_4_alt_1 - quarter - half - full
+            </div>
+
+            <div class="col_4_alt_1 zero">
+                col_4_alt_1 - quarter - half - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_2 zero">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2 zero">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2 zero">
+                col_4_alt_2 - quarter - half - half
+            </div>
+
+            <div class="col_4_alt_2 zero">
+                col_4_alt_2 - quarter - half - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_3 zero">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3 zero">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3 zero">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+
+            <div class="col_4_alt_3 zero">
+                col_4_alt_3 - quarter - quarter - half
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_4_alt_4 zero">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4 zero">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4 zero">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+
+            <div class="col_4_alt_4 zero">
+                col_4_alt_4 - quarter - quarter - quarter
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l zero">
+                col_golden_sb_l - sidebar left - full - full
+            </div>
+
+            <div class="col_golden_ct_r zero">
+                col_golden_ct_r - content right - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l_alt_1 zero">
+                col_golden_sb_l_alt_1 - sidebar left - sidebar left - full
+            </div>
+
+            <div class="col_golden_ct_r_alt_1 zero">
+                col_golden_ct_r_alt_1 - content right - content right - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_sb_l_alt_2 zero">
+                col_golden_sb_l_alt_2 - sidebar left - sidebar left - sidebar left
+            </div>
+
+            <div class="col_golden_ct_r_alt_2 zero">
+                col_golden_ct_r_alt_2 - content right - content right - content right
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l zero">
+                col_golden_ct_l - content left - full - full
+            </div>
+
+            <div class="col_golden_sb_r zero">
+                col_golden_sb_r - sidebar right - full - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l_alt_1 zero">
+                col_golden_ct_l_alt_1 - content left - content left - full
+            </div>
+
+            <div class="col_golden_sb_r_alt_1 zero">
+                col_golden_sb_r_alt_1 - sidebar right - sidebar right - full
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_golden_ct_l_alt_2 zero">
+                col_golden_ct_l_alt_2 - content left - content left - content left
+            </div>
+
+            <div class="col_golden_sb_r_alt_2 zero">
+                col_golden_sb_r_alt_2 - sidebar right - sidebar right - sidebar right
+            </div>
+        </div>
+    </div>
 </body>
 </html>
