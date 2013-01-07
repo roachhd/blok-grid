@@ -121,7 +121,7 @@ End Custom CSS for IE
 	clear:both;
 }
 
-.row,.col_2_alt_2:nth-child(2n+2),.col_3_alt_2:nth-child(3n+2),.col_3_alt_2:nth-child(3n+3),.col_3_alt_3:nth-child(3n+2),.col_3_alt_3:nth-child(3n+3),.col_4_alt_2:nth-child(4n+2),.col_4_alt_2:nth-child(4n+4),.col_4_alt_3:nth-child(4n+2),.col_4_alt_3:nth-child(4n+4),.col_4_alt_4:nth-child(4n+2),.col_4_alt_4:nth-child(4n+3),.col_4_alt_4:nth-child(4n+4),.col_golden_ct_r_alt_2,.col_golden_sb_r_alt_2 {
+.col_2_alt_2:nth-child(2n+2),.col_3_alt_2:nth-child(3n+2),.col_3_alt_2:nth-child(3n+3),.col_3_alt_3:nth-child(3n+2),.col_3_alt_3:nth-child(3n+3),.col_4_alt_2:nth-child(4n+2),.col_4_alt_2:nth-child(4n+4),.col_4_alt_3:nth-child(4n+2),.col_4_alt_3:nth-child(4n+4),.col_4_alt_4:nth-child(4n+2),.col_4_alt_4:nth-child(4n+3),.col_4_alt_4:nth-child(4n+4),.col_golden_ct_r_alt_2,.col_golden_sb_r_alt_2 {
 	clear:none;
 }
 
