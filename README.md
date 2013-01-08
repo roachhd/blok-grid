@@ -14,7 +14,7 @@ With Blok Framework, you can easily create a responsive layout with alternative 
 * Uses box sizing for less rounding down
 * Can easily nest for more layout options
   
-This will work in older versions of Internet Explorer. I have decided to not make it responsive in versions of IE 8 and below, since there are no mobile devices running those browsers. Instead, I used a prefix system to evoke a 960 Grid type of system. The box-sizing and .zero class for nesting works due to a polyfill created by Schepp. Please see the credit at the bottom.
+This will work in older versions of Internet Explorer. I have decided to not make it responsive in versions of IE 8 and below, since there are no mobile devices running those browsers. Instead, I used a prefix system to evoke a 960 Grid type of system, except with percentages for nesting reasons. The box-sizing and .zero class for nesting works due to a polyfill created by Schepp. Please see the credit at the bottom.
   
 When placing blocks, they must be the same type for the responses to work correctly. They must also be repeated by the number, so col_4 is repeated 4 times. Blocks should also be wrapped in a dive with a 'row' class so there are no conflicts with the nth-child property. 
   
