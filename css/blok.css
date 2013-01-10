@@ -66,15 +66,6 @@ img,object,embed,video {
 	padding:0;
 }
 
-/*
-Custom CSS for IE (prefix with .iex or .ie6, .ie7 or .ie8 for specific targeting.)
-*/
-
-
-
-/*
-End Custom CSS for IE
-*/
 /* 
 ------------------Mobile------------------
 */
@@ -131,15 +122,6 @@ End Custom CSS for IE
 }
 
 /*
-Custom CSS for Mobile
-*/
-
-
-
-/*
-End Custom CSS for Mobile
-*/
-/*
 ------------------Tablet------------------
 */
 @media only screen and (min-width: 481px) {
@@ -181,16 +163,6 @@ End Custom CSS for Mobile
 	.col_golden_ct_r_alt_1,.col_golden_ct_r_alt_2,.col_golden_ct_l_alt_1,.col_golden_ct_l_alt_2 {
 		width:62%;
 	}
-	/*
-	Custom CSS for Tablet
-	*/
-		
-		
-		
-	/*
-	End Custom CSS for Tablet
-	*/
-	
 }
 
 /*
@@ -236,16 +208,6 @@ End Custom CSS for Mobile
 	.col_golden_ct_r,.col_golden_ct_r_alt_1,.col_golden_ct_r_alt_2,.col_golden_ct_l,.col_golden_ct_l_alt_1,.col_golden_ct_l_alt_2 {
 		width:62%;
 	}
-	/*
-	Custom CSS for Desktop
-	*/
-	
-	
-	
-	/*
-	End Custom CSS for Desktop
-	*/
-	
 }
 
 /*
