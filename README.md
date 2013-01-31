@@ -39,50 +39,21 @@ Everything has been organised for you to place your own styles in a managable fa
 * Alternate response options for block groups
 * Uses nth-child so blocks can be repeated and respond correctly
 
-####Grid Example
+####Grid
 ---
-When using the responsive grid, make sure to repeat the same block class by the number of the col. So col_4 would usually be repeated 4 times and contained within a row.
-  
-`<div class="row">`  
-    `<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-`</div>`  
+The grid system works similar to other grid systems. You have 12 columns for all screen sizes and can select whatever size you like so long as it adds to 12. 
 
-If you wanted to create a gallery or have a repeated block, then you can do so by setting one of the blocks as a repeating region and the nth-child will take care of the layout for you. So you could have 8 blocks of col_4_alt_2 and they will still respond without gettings bunched up if one block has a height difference. 
+The difference with is framework is you can select different column sizes for each screen size. 
 
-`<div class="row">`  
-   	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`   
-`</div>` 
-  
-For the golden ratio, the rules are slightly different. The only have 2 sections. There is the sidebar and the content. If you use a left sidebar, then you need to use the right content. If an alt version is used, then you need to use the corresponding alt version for the other. 
-  
-`<div class="row">`  
-	`<div class="col_golden_ct_l_alt_1"></div>`  
-	`<div class="col_golden_sb_r_alt_1"></div>`  
-`</div>`  
+m - Mobile  
+t - Tablet  
+d - Desktop  
 
-When you want to create responsive blocks within other blocks to create a more complex response, then you have the option to nest. The blocks will still behave in the same way. You also have the option to take away any box-sizing by adding the .zero class to the parent block
+You have push and pull for each device and also have a nth option for when divs will stack. 
 
-`<div class="row">`  
-   	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2 zero">`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`</div>`  
-	`<div class="col_4_alt_2"></div>`  
-	`<div class="col_4_alt_2"></div>`     
-`</div>`
+If using nth, you need to apply it for all screens that come after so they can cancel out. 
+
+For example, if you use nth in mobile, you must use it for tablet and desktop. If you use it on desktop, then no need to cancel it out. 
 
 ####Internet Explorer
 ---
