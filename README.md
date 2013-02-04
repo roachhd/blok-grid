@@ -12,32 +12,7 @@ Blok helps get your websites up and running whilst not restricting you to a stri
 
 It uses a custom made responsive grid system for all of the latest browsers and has a fallback for older IE browsers. 
 
-Everything has been organised for you to place your own styles in a managable fashion.
-
-###Whats included?
----
-* HTML5 Boilerplate <http://html5boilerplate.com>
-* Blok Responsive Grid System
-* Organised style.css for custom CSS
-* Modernizr.js <http://modernizr.com>
-* jQuery & jQuery UI <http://jquery.com>
-* PIE CSS3 polyfill <http://css3pie.com>
-* Boxsizing polyfill <https://github.com/Schepp/box-sizing-polyfill>
-
-***coming soon***
-
-* Responsive plugins built with jQuery
-* Plugins will be able to be themed with jQuery Theme Roller
-* Helper classes for buttons, tables, images, forms, lists and so on
-  
-####Features
----
-* Covers mobile, tablet and desktop screen sizes
-* Mobile first media queries
-* Uses box-sizing for reduced rounding down in browsers
-* Can easily be edited to use margins instead of box-sizing
-* Alternate response options for block groups
-* Uses nth-child so blocks can be repeated and respond correctly
+Everything has been organised for you to place your own styles in a manageable fashion.
 
 ####Grid
 ---
