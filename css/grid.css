@@ -5,7 +5,6 @@ CSS Responsive Grid System "Blok Grid System"
 Created by Jordan Trainor | http://jordantrainor.co.uk
 Licensed under GPL.
 */
-
 /*credit to h5bp*/
 html,button,input,select,textarea {
 	color:#222;
@@ -27,7 +26,6 @@ body {
 }
 
 hr {
-	display:block;
 	margin:1em 0;
 	padding:0;
 	height:1px;
@@ -153,6 +151,7 @@ textarea {
 		page-break-after:avoid;
 	}
 }
+
 /*end credit to h5bp*/
 img,object,embed,video {
 	max-width:100%;
@@ -180,14 +179,14 @@ img,object,embed,video {
 ------------------Mobile------------------
 */
 .container {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
 	padding-right:.5em;
 	padding-left:.5em;
-	width:90%;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+	width:96%;
 }
 
 /*----Grid----*/
@@ -237,6 +236,14 @@ img,object,embed,video {
 
 .col_m_12,.col_m_full {
 	width:100%;
+}
+
+.col_m_gld_sb {
+	width:38%;
+}
+
+.col_m_gld_ct {
+	width:62%;
 }
 
 /*----push----*/
@@ -367,7 +374,7 @@ img,object,embed,video {
 */
 @media only screen and (min-width: 481px) {
 	.container {
-		width:90%;
+		width:94%;
 	}
 	
 	/*----Grid----*/
@@ -417,6 +424,14 @@ img,object,embed,video {
 	
 	.col_t_12,.col_t_full {
 		width:100%;
+	}
+	
+	.col_t_gld_sb {
+		width:38%;
+	}
+	
+	.col_t_gld_ct {
+		width:62%;
 	}
 	
 	/*----push----*/
@@ -599,6 +614,14 @@ img,object,embed,video {
 	
 	.col_d_12,.col_d_full {
 		width:100%;
+	}
+	
+	.col_d_gld_sb {
+		width:38%;
+	}
+	
+	.col_d_gld_ct {
+		width:62%;
 	}
 	
 	/*----push----*/
@@ -928,22 +951,21 @@ img,object,embed,video {
 /*
 ------------------Global------------------
 */
-.clearfix:before,
-.clearfix:after {
-  content: ".";
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  font-size: 0;
-  line-height: 0;
-  width: 0;
-  height: 0;
+.clearfix:before,.clearfix:after {
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	width:0;
+	height:0;
+	content:".";
+	font-size:0;
+	line-height:0;
 }
- 
+
 .clearfix:after {
-  clear: both;
+	clear:both;
 }
- 
+
 .clearfix {
-  zoom: 1;
+	zoom:1;
 }
