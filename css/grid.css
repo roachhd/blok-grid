@@ -929,9 +929,7 @@ img,object,embed,video {
 ------------------Global------------------
 */
 .clearfix:before,
-.clearfix:after,
-#foobar:before,
-#foobar:after {
+.clearfix:after {
   content: ".";
   display: block;
   overflow: hidden;
@@ -942,12 +940,10 @@ img,object,embed,video {
   height: 0;
 }
  
-.clearfix:after,
-#foobar:after {
+.clearfix:after {
   clear: both;
 }
  
-.clearfix,
-#foobar {
+.clearfix {
   zoom: 1;
 }
