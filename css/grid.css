@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*
-CSS Responsive Grid System "Blok Grid"
+CSS Responsive Grid System "Blok Grid System"
 Created by Jordan Trainor | http://jordantrainor.co.uk
 Licensed under GPL.
 */
@@ -180,10 +180,14 @@ img,object,embed,video {
 ------------------Mobile------------------
 */
 .container {
-	margin:auto;
+	margin-right:auto;
+	margin-left:auto;
 	padding-right:.5em;
 	padding-left:.5em;
 	width:90%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 /*----Grid----*/
@@ -363,7 +367,6 @@ img,object,embed,video {
 */
 @media only screen and (min-width: 481px) {
 	.container {
-		margin:auto;
 		width:90%;
 	}
 	
@@ -545,7 +548,6 @@ img,object,embed,video {
 */
 @media only screen and (min-width: 769px) {
 	.container {
-		margin:auto;
 		max-width:1232px;
 		width:90%;
 	}
@@ -731,7 +733,8 @@ img,object,embed,video {
 }
 
 .iex .container {
-	margin:auto;
+	margin-right:auto;
+	margin-right:auto;
 	padding-right:.5em;
 	padding-left:.5em;
 	width:960px;
@@ -925,19 +928,26 @@ img,object,embed,video {
 /*
 ------------------Global------------------
 */
-.clearfix:before,.clearfix:after {
-	display:table;
-	content:"";
+.clearfix:before,
+.clearfix:after,
+#foobar:before,
+#foobar:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
 }
-
-.clearfix:after {
-	clear:both;
+ 
+.clearfix:after,
+#foobar:after {
+  clear: both;
 }
-
-.clearfix {
-	zoom:1;
-}
-
-.zero {
-	padding:0;
+ 
+.clearfix,
+#foobar {
+  zoom: 1;
 }
