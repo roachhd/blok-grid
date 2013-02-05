@@ -1,9 +1,9 @@
-Blok Framework 
-==============
+Blok Grid System 
+================
 
 ######***a work in progress***
   
-***Responsive CSS Framework and more!***
+***Responsive CSS Grid System***
 
 ###What is Blok?
 ---
