@@ -951,6 +951,10 @@ img,object,embed,video {
 /*
 ------------------Global------------------
 */
+.zero {
+	padding:0;
+}
+
 .clearfix:before,.clearfix:after {
 	display:block;
 	visibility:hidden;
