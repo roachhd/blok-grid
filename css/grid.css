@@ -5,12 +5,11 @@ CSS Responsive Grid System "Blok Grid System"
 Created by Jordan Trainor | http://jordantrainor.co.uk
 Licensed under GPL.
 */
-
 img,object,embed,video {
 	max-width:100%;
 }
 
-.col_m_1,.col_m_2,.col_m_3,.col_m_4,.col_m_5,.col_m_6,.col_m_7,.col_m_8,.col_m_9,.col_m_10,.col_m_11,.col_m_12,.col_t_1,.col_t_2,.col_t_3,.col_t_4,.col_t_5,.col_t_6,.col_t_7,.col_t_8,.col_t_9,.col_t_10,.col_t_11,.col_t_12,.col_d_1,.col_d_2,.col_d_3,.col_d_4,.col_d_5,.col_d_6,.col_d_7,.col_d_8,.col_d_9,.col_d_10,.col_d_11,.col_d_12 {
+.col_m_1,.col_m_2,.col_m_3,.col_m_4,.col_m_5,.col_m_6,.col_m_7,.col_m_8,.col_m_9,.col_m_10,.col_m_11,.col_m_12,.col_m_gld_ct,.col_m_gld_sb,.col_t_1,.col_t_2,.col_t_3,.col_t_4,.col_t_5,.col_t_6,.col_t_7,.col_t_8,.col_t_9,.col_t_10,.col_t_11,.col_t_12,.col_t_gld_ct,.col_t_gld_sb,.col_d_1,.col_d_2,.col_d_3,.col_d_4,.col_d_5,.col_d_6,.col_d_7,.col_d_8,.col_d_9,.col_d_10,.col_d_11,.col_d_12,.col_d_gld_ct,.col_d_gld_sb {
 	position:relative;
 	display:block;
 	float:left;
@@ -39,7 +38,7 @@ img,object,embed,video {
 	margin-left:auto;
 	padding-right:.5em;
 	padding-left:.5em;
-	width:96%;
+	width:100%;
 }
 
 /*----Grid----*/
@@ -227,7 +226,7 @@ img,object,embed,video {
 */
 @media only screen and (min-width: 481px) {
 	.container {
-		width:94%;
+		width:100%;
 	}
 	
 	/*----Grid----*/
@@ -417,7 +416,7 @@ img,object,embed,video {
 @media only screen and (min-width: 769px) {
 	.container {
 		max-width:1232px;
-		width:90%;
+		width:96%;
 	}
 	
 	/*----Grid----*/
@@ -616,7 +615,7 @@ img,object,embed,video {
 	width:960px;
 }
 
-.iex .d1,.iex .d2,.iex .d3,.iex .d4,.iex .d5,.iex .d6,.iex .d7,.iex .d8,.iex .d9,.iex .d10,.iex .d11,.iex .d12 {
+.iex .d1,.iex .d2,.iex .d3,.iex .d4,.iex .d5,.iex .d6,.iex .d7,.iex .d8,.iex .d9,.iex .d10,.iex .d11,.iex .d12,.iex .col_d_gld_sb,.iex .col_d_gld_ct {
 	position:relative;
 	display:block;
 	float:left;
