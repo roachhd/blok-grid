@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	margin:.85em 0 -.18em;
+	margin:.85em 0 -.15em;
 	font-size:1.375em;
 	line-height:1.5em;
 }
@@ -30,51 +30,50 @@ h3 {
 }
 
 h4 {
-	margin:1.35em 0 -.18em;
+	margin:1.35em 0 -.2em;
 	font-size:1.125em;
 	line-height:1.5em;
 }
 
 h5 {
-	margin:2.1em 0 -.2em;
+	margin:2.1em 0 -.1em;
 	font-size:.875em;
 	line-height:1.5em;
 }
 
 h6 {
-	margin:2.6em 0;
+	margin:2.6em 0 3.1em;
 	font-size:.75em;
 	line-height:1.5em;
 }
 
 h1+p {
-	margin-top:1.35em;
+	margin-top:2.5em;
 }
 
 h2+p {
-	margin-top:1.35em;
+	margin-top:2.5em;
 }
 
 h3+p {
-	margin-top:1.35em;
+	margin-top:2.5em;
 }
 
 h4+p {
-	margin-top:1.35em;
+	margin-top:2.5em;
 }
 
 h5+p {
-	margin-top:1.35em;
+	margin-top:2.45em;
 }
 
 h6+p {
-	margin-top:-.7em;
+	margin-top:2.45em;
 }
 
 p,pre {
 	position:relative;
-	top:.4em;
-	margin:1.5em 0;
+	top:-.85em;
 	line-height:1.5em;
 }
 
