@@ -12,6 +12,11 @@ End Custom CSS for IE
 ------------------Mobile------------------
 */
 /*Global*/
+.baseline {
+	background-image: url(baseline.png);
+	background-repeat: repeat;
+	background-position: left top;
+}
 /*Header-*/
 /*Body*/
 /*Footer*/
