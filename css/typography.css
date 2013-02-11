@@ -1,82 +1,118 @@
 @charset "UTF-8";
 
-body {
-	color:#333;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	direction:ltr;
+	line-height:1.6;
+}
+
+p {
+	margin-bottom:1.0625em;
+/*--17px--*/
 	font-weight:400;
 	font-size:1em;
-	font-family:Arial,Helvetica,sans-serif;
+/*--14px--*/
+	font-family:inherit;
+	line-height:1.6;
+}
+
+p.lead {
+	margin-bottom:1.0625em;
+	font-size:1.09375em;
+/*--17.5px--*/
+	line-height:1.6;
+}
+
+aside p {
+	font-style:italic;
+	font-size:.1875em;
+/*--13px--*/
+	line-height:1.35;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight:400;
+	margin-top:.875em;
+/*--14px--*/
+	margin-bottom:.875em;
+/*--14px--*/
+	color:#222;
+	font-weight:700;
+	font-style:normal;
+	font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	line-height:1.1;
+	text-rendering:optimizeLegibility;
+}
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
+	color:#6f6f6f;
+	font-size:60%;
+	line-height:0;
 }
 
 h1 {
-	margin:.7em 0 -.2em;
-	font-size:1.5em;
-	line-height:1.5em;
+	font-size:2.75em;
+/*--44px--*/
 }
 
 h2 {
-	margin:.85em 0 -.15em;
-	font-size:1.375em;
-	line-height:1.5em;
+	font-size:2.3125em;
+/*--37px--*/
 }
 
 h3 {
-	margin:1.05em 0 -.15em;
-	font-size:1.25em;
-	line-height:1.5em;
+	font-size:1.6875em;
+/*--27px--*/
 }
 
 h4 {
-	margin:1.35em 0 -.2em;
-	font-size:1.125em;
-	line-height:1.5em;
+	font-size:1.4375em;
+/*--23px--*/
 }
 
 h5 {
-	margin:2.1em 0 -.1em;
-	font-size:.875em;
-	line-height:1.5em;
+	font-size:1.0625em;
+/*--17px--*/
 }
 
 h6 {
-	margin:2.6em 0 3.1em;
-	font-size:.75em;
-	line-height:1.5em;
+	font-size:.875em;
+/*--14px--*/
 }
 
-h1+p {
-	margin-top:2.5em;
+hr {
+	clear:both;
+	margin:1.375em 0 1.3125em;
+	height:0;
+	border:solid #ddd;
+	border-width:1px 0 0;
 }
 
-h2+p {
-	margin-top:2.5em;
+.subheader {
+	margin-bottom:1.0625em;
+/*--17px--*/
+	color:#6f6f6f;
+	font-weight:300;
+	line-height:1.3;
 }
 
-h3+p {
-	margin-top:2.5em;
+em,i {
+	font-style:italic;
+	line-height:inherit;
 }
 
-h4+p {
-	margin-top:2.5em;
+strong,b {
+	font-weight:700;
+	line-height:inherit;
 }
 
-h5+p {
-	margin-top:2.45em;
+small {
+	font-size:60%;
+	line-height:inherit;
 }
 
-h6+p {
-	margin-top:2.45em;
-}
-
-p,pre {
-	position:relative;
-	top:-.85em;
-	line-height:1.5em;
-}
-
-p+p,pre+pre {
-	margin-top:1.5em;
+code {
+	background:#ff9;
+	font-weight:700;
 }
