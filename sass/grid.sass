@@ -1,8 +1,4 @@
-/*
- *CSS Responsive Grid System "Blok Grid System"
- *Created by Jordan Trainor | http://jordantrainor.co.uk
- *Licensed under GPL.
-
+/*------------------Grid------------------
 img, object, embed, video
   max-width: 100%
 
@@ -14,7 +10,7 @@ img, object, embed, video
   -moz-box-sizing: border-box
   box-sizing: border-box
   padding: .5em
-  behavior: url(css/boxsizing.htc)
+  *behavior: url(htc/boxsizing.htc)
 
 .row
   position: relative
@@ -23,8 +19,7 @@ img, object, embed, video
   clear: both
   width: 100%
 
-/* 
- *------------------Mobile------------------
+/*------------------Mobile------------------
 
 .container
   -webkit-box-sizing: border-box
@@ -216,8 +211,7 @@ img, object, embed, video
 .nth_m_1, .nth_m_2:nth-child(2n+1), .nth_m_3:nth-child(3n+1), .nth_m_4:nth-child(4n+1), .nth_m_5:nth-child(5n+1), .nth_m_6:nth-child(6n+1), .nth_m_7:nth-child(7n+1), .nth_m_8:nth-child(8n+1), .nth_m_9:nth-child(9n+1), .nth_m_10:nth-child(10n+1), .nth_m_11:nth-child(11n+1), .nth_m_12:nth-child(12n+1)
   clear: both
 
-/*
- *------------------Tablet------------------
+/*------------------Tablet------------------
 @media only screen and (min-width: 481px)
   .container
     width: 100%
@@ -344,8 +338,7 @@ img, object, embed, video
   .nth_t_1, .nth_t_2:nth-child(2n+1), .nth_t_3:nth-child(3n+1), .nth_t_4:nth-child(4n+1), .nth_t_5:nth-child(5n+1), .nth_t_6:nth-child(6n+1), .nth_t_7:nth-child(7n+1), .nth_t_8:nth-child(8n+1), .nth_t_9:nth-child(9n+1), .nth_t_10:nth-child(10n+1), .nth_t_11:nth-child(11n+1), .nth_t_12:nth-child(12n+1)
     clear: both
 
-/*
- *------------------Desktop------------------
+/*------------------Desktop------------------
 @media only screen and (min-width: 769px)
   .container
     max-width: 1232px
@@ -473,8 +466,7 @@ img, object, embed, video
   .nth_d_1, .nth_d_2:nth-child(2n+1), .nth_d_3:nth-child(3n+1), .nth_d_4:nth-child(4n+1), .nth_d_5:nth-child(5n+1), .nth_d_6:nth-child(6n+1), .nth_d_7:nth-child(7n+1), .nth_d_8:nth-child(8n+1), .nth_d_9:nth-child(9n+1), .nth_d_10:nth-child(10n+1), .nth_d_11:nth-child(11n+1), .nth_d_12:nth-child(12n+1)
     clear: both
 
-/*
- *-----------------Explorer-----------------
+/*-----------------Explorer-----------------
 
 .ie6 img
   width: 100%
@@ -494,7 +486,7 @@ img, object, embed, video
     -moz-box-sizing: border-box
     box-sizing: border-box
     padding: .5em
-    *behavior: url(css/boxsizing.htc)
+    behavior: url(htc/boxsizing.htc)
   .row
     position: relative
     display: block
@@ -507,50 +499,40 @@ img, object, embed, video
     width: 16.666666666667%
   .col_d_3
     width: 25%
-
-/*----Grid----
-
-.col_d_quarter
-  width: 25%
-
-.iex .col_d_4, .col_d_third
-  width: 33.333333333333%
-
-.iex
+  .col_d_quarter
+    width: 25%
+  .col_d_4
+    width: 33.333333333333%
+  .col_d_third
+    width: 33.333333333333%
   .col_d_5
     width: 41.666666666667%
   .col_d_6
     width: 50%
-
-.col_d_half
-  width: 50%
-
-.iex
+  .col_d_half
+    width: 50%
   .col_d_7
     width: 58.333333333333%
   .col_d_8
     width: 66.666666666667%
-
-.col_d_two_thirds
-  width: 66.666666666667%
-
-.iex .col_d_9, .col_d_three_quarters
-  width: 75%
-
-.iex
+  .col_d_two_thirds
+    width: 66.666666666667%
+  .col_d_9
+    width: 75%
+  .col_d_three_quarters
+    width: 75%
   .col_d_10
     width: 83.333333333333%
   .col_d_11
     width: 91.666666666667%
   .col_d_12
     width: 100%
-
-.col_d_full
-  width: 100%
-
-/*----push----
-
-.iex
+  .col_d_full
+    width: 100%
+  .col_d_gld_sb
+    width: 38%
+  .col_d_gld_ct
+    width: 62%
   .push_d_1, .push_d_2, .push_d_3, .push_d_4, .push_d_5, .push_d_6, .push_d_7, .push_d_8, .push_d_9, .push_d_10, .push_d_11, .push_d_12
     position: relative
   .push_d_1
@@ -604,16 +586,12 @@ img, object, embed, video
   .pull_d_12
     left: -100%
 
-/*----pull----
-
-/*
- *------------------Helper------------------
+/*------------------Helper------------------
 
 .hlp_pad
   padding: .5em
 
-/*
- *------------------Global------------------
+/*------------------Global------------------
 
 .zero
   padding: 0
