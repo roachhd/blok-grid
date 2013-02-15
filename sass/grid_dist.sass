@@ -1,3 +1,177 @@
+.ie6 img
+  width: $col_12
+
+.iex
+
+  img
+    max-width: $col_12
+  .container
+    margin-right: auto
+    margin-right: auto
+    padding-right: .5em
+    padding-left: .5em
+    width: 960px
+  [class*='col_']
+    position: relative
+    display: block
+    float: left
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding: .5em
+    *behavior: url(htc/boxsizing.htc)
+  .row
+    position: relative
+    display: block
+    float: left
+    clear: both
+    width: $col_12
+  .col_d_1
+    width: $col_1
+  .col_d_2
+    width: $col_2
+  .col_d_3
+    width: $col_3
+  .col_d_quarter
+    width: $col_3
+  .col_d_4
+    width: $col_4
+  .col_d_third
+    width: $col_4
+  .col_d_5
+    width: $col_5
+  .col_d_6
+    width: $col_6
+  .col_d_half
+    width: $col_6
+  .col_d_7
+    width: $col_7
+  .col_d_8
+    width: $col_8
+  .col_d_two_thirds
+    width: $col_8
+  .col_d_9
+    width: $col_9
+  .col_d_three_quarters
+    width: $col_9
+  .col_d_10
+    width: $col_10
+  .col_d_11
+    width: $col_11
+  .col_d_12
+    width: $col_12
+  .col_d_full
+    width: $col_12
+  .col_d_gsb
+    width: $col_gsb
+  .col_d_gct
+    width: $col_gct
+  [class*='push_d']
+    position: relative
+  .push_d_reset
+    left: $col_0
+  .push_d_1
+    left: $col_1
+  .push_d_2
+    left: $col_2
+  .push_d_3
+    left: $col_3
+  .push_d_4
+    left: $col_4
+  .push_d_5
+    left: $col_5
+  .push_d_6
+    left: $col_6
+  .push_d_7
+    left: $col_7
+  .push_d_8
+    left: $col_8
+  .push_d_9
+    left: $col_9
+  .push_d_10
+    left: $col_10
+  .push_d_11
+    left: $col_11
+  .push_d_12
+    left: $col_12
+  [class*='pull_d']
+    position: relative
+  .pull_d_reset
+    left: $col_0
+  .pull_d_1
+    left: -$col_1
+  .pull_d_2
+    left: -$col_2
+  .pull_d_3
+    left: -$col_3
+  .pull_d_4
+    left: -$col_4
+  .pull_d_5
+    left: -$col_5
+  .pull_d_6
+    left: -$col_6
+  .pull_d_7
+    left: -$col_7
+  .pull_d_8
+    left: -$col_8
+  .pull_d_9
+    left: -$col_9
+  .pull_d_10
+    left: -$col_10
+  .pull_d_11
+    left: -$col_11
+  .pull_d_12
+    left: -$col_12
+
+.pad
+  padding: .5em
+
+.zero
+  padding: 0
+
+.clearfix
+  &:before
+    display: block
+    visibility: hidden
+    overflow: hidden
+    width: 0
+    height: 0
+    content: "."
+    font-size: 0
+    line-height: 0
+  &:after
+    display: block
+    visibility: hidden
+    overflow: hidden
+    width: 0
+    height: 0
+    content: "."
+    font-size: 0
+    line-height: 0
+    clear: both
+  zoom: 1
+
+
+
+img, object, embed, video
+  max-width: $col_12
+
+[class*='col_']
+  position: relative
+  display: block
+  float: left
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  padding: .5em
+  *behavior: url(htc/boxsizing.htc)
+
+.row
+  position: relative
+  display: block
+  float: left
+  clear: both
+  width: $col_12
 /*------------------Mobile Grid------------------*/
 .container
   -webkit-box-sizing: border-box
@@ -422,362 +596,3 @@
   .nth_d_1, .nth_d_2:nth-child(2n+1), .nth_d_3:nth-child(3n+1), .nth_d_4:nth-child(4n+1), .nth_d_5:nth-child(5n+1), .nth_d_6:nth-child(6n+1), .nth_d_7:nth-child(7n+1), .nth_d_8:nth-child(8n+1), .nth_d_9:nth-child(9n+1), .nth_d_10:nth-child(10n+1), .nth_d_11:nth-child(11n+1), .nth_d_12:nth-child(12n+1)
     clear: both
 
-.ie6 img
-  width: $col_12
-
-.iex
-
-  img
-    max-width: $col_12
-  .container
-    margin-right: auto
-    margin-right: auto
-    padding-right: .5em
-    padding-left: .5em
-    width: 960px
-
-  [class*='col_']
-    position: relative
-    display: block
-    float: left
-    -webkit-box-sizing: border-box
-    -moz-box-sizing: border-box
-    box-sizing: border-box
-    padding: .5em
-    *behavior: url(htc/boxsizing.htc)
-  .row
-    position: relative
-    display: block
-    float: left
-    clear: both
-    width: $col_12
-  .col_m_1
-    width: $col_1
-  .col_m_2
-    width: $col_2
-  .col_m_3
-    width: $col_3
-  .col_m_quarter
-    width: $col_3
-  .col_m_4
-    width: $col_4
-  .col_m_third
-    width: $col_4
-  .col_m_5
-    width: $col_5
-  .col_m_6
-    width: $col_6
-  .col_m_half
-    width: $col_6
-  .col_m_7
-    width: $col_7
-  .col_m_8
-    width: $col_8
-  .col_m_two_thirds
-    width: $col_8
-  .col_m_9
-    width: $col_9
-  .col_m_three_quarters
-    width: $col_9
-  .col_m_10
-    width: $col_10
-  .col_m_11
-    width: $col_11
-  .col_m_12
-    width: $col_12
-  .col_m_full
-    width: $col_12
-  .col_m_gsb
-    width: $col_gsb
-  .col_m_gct
-    width: $col_gct
-  .col_t_1
-    width: $col_1
-  .col_t_2
-    width: $col_2
-  .col_t_3
-    width: $col_3
-  .col_t_quarter
-    width: $col_3
-  .col_t_4
-    width: $col_4
-  .col_t_third
-    width: $col_4
-  .col_t_5
-    width: $col_5
-  .col_t_6
-    width: $col_6
-  .col_t_half
-    width: $col_6
-  .col_t_7
-    width: $col_7
-  .col_t_8
-    width: $col_8
-  .col_t_two_thirds
-    width: $col_8
-  .col_t_9
-    width: $col_9
-  .col_t_three_quarters
-    width: $col_9
-  .col_t_10
-    width: $col_10
-  .col_t_11
-    width: $col_11
-  .col_t_12
-    width: $col_12
-  .col_t_full
-    width: $col_12
-  .col_t_gsb
-    width: $col_gsb
-  .col_t_gct
-    width: $col_gct
-  .col_d_1
-    width: $col_1
-  .col_d_2
-    width: $col_2
-  .col_d_3
-    width: $col_3
-  .col_d_quarter
-    width: $col_3
-  .col_d_4
-    width: $col_4
-  .col_d_third
-    width: $col_4
-  .col_d_5
-    width: $col_5
-  .col_d_6
-    width: $col_6
-  .col_d_half
-    width: $col_6
-  .col_d_7
-    width: $col_7
-  .col_d_8
-    width: $col_8
-  .col_d_two_thirds
-    width: $col_8
-  .col_d_9
-    width: $col_9
-  .col_d_three_quarters
-    width: $col_9
-  .col_d_10
-    width: $col_10
-  .col_d_11
-    width: $col_11
-  .col_d_12
-    width: $col_12
-  .col_d_full
-    width: $col_12
-  .col_d_gsb
-    width: $col_gsb
-  .col_d_gct
-    width: $col_gct
-  [class*='push_d']
-    position: relative
-  .push_m_reset
-    left: $col_0
-  .push_m_1
-    left: $col_1
-  .push_m_2
-    left: $col_2
-  .push_m_3
-    left: $col_3
-  .push_m_4
-    left: $col_4
-  .push_m_5
-    left: $col_5
-  .push_m_6
-    left: $col_6
-  .push_m_7
-    left: $col_7
-  .push_m_8
-    left: $col_8
-  .push_m_9
-    left: $col_9
-  .push_m_10
-    left: $col_10
-  .push_m_11
-    left: $col_11
-  .push_m_12
-    left: $col_12
-  .push_t_reset
-    left: $col_0
-  .push_t_1
-    left: $col_1
-  .push_t_2
-    left: $col_2
-  .push_t_3
-    left: $col_3
-  .push_t_4
-    left: $col_4
-  .push_t_5
-    left: $col_5
-  .push_t_6
-    left: $col_6
-  .push_t_7
-    left: $col_7
-  .push_t_8
-    left: $col_8
-  .push_t_9
-    left: $col_9
-  .push_t_10
-    left: $col_10
-  .push_t_11
-    left: $col_11
-  .push_t_12
-    left: $col_12
-  .push_d_reset
-    left: $col_0
-  .push_d_1
-    left: $col_1
-  .push_d_2
-    left: $col_2
-  .push_d_3
-    left: $col_3
-  .push_d_4
-    left: $col_4
-  .push_d_5
-    left: $col_5
-  .push_d_6
-    left: $col_6
-  .push_d_7
-    left: $col_7
-  .push_d_8
-    left: $col_8
-  .push_d_9
-    left: $col_9
-  .push_d_10
-    left: $col_10
-  .push_d_11
-    left: $col_11
-  .push_d_12
-    left: $col_12
-  [class*='pull_d']
-    position: relative
-  .pull_m_reset
-    left: $col_0
-  .pull_m_1
-    left: -$col_1
-  .pull_m_2
-    left: -$col_2
-  .pull_m_3
-    left: -$col_3
-  .pull_m_4
-    left: -$col_4
-  .pull_m_5
-    left: -$col_5
-  .pull_m_6
-    left: -$col_6
-  .pull_m_7
-    left: -$col_7
-  .pull_m_8
-    left: -$col_8
-  .pull_m_9
-    left: -$col_9
-  .pull_m_10
-    left: -$col_10
-  .pull_m_11
-    left: -$col_11
-  .pull_m_12
-    left: -$col_12
-  .pull_t_reset
-    left: $col_0
-  .pull_t_1
-    left: -$col_1
-  .pull_t_2
-    left: -$col_2
-  .pull_t_3
-    left: -$col_3
-  .pull_t_4
-    left: -$col_4
-  .pull_t_5
-    left: -$col_5
-  .pull_t_6
-    left: -$col_6
-  .pull_t_7
-    left: -$col_7
-  .pull_t_8
-    left: -$col_8
-  .pull_t_9
-    left: -$col_9
-  .pull_t_10
-    left: -$col_10
-  .pull_t_11
-    left: -$col_11
-  .pull_t_12
-    left: -$col_12
-  .pull_d_reset
-    left: $col_0
-  .pull_d_1
-    left: -$col_1
-  .pull_d_2
-    left: -$col_2
-  .pull_d_3
-    left: -$col_3
-  .pull_d_4
-    left: -$col_4
-  .pull_d_5
-    left: -$col_5
-  .pull_d_6
-    left: -$col_6
-  .pull_d_7
-    left: -$col_7
-  .pull_d_8
-    left: -$col_8
-  .pull_d_9
-    left: -$col_9
-  .pull_d_10
-    left: -$col_10
-  .pull_d_11
-    left: -$col_11
-  .pull_d_12
-    left: -$col_12
-
-.pad
-  padding: .5em
-
-.zero
-  padding: 0
-
-.clearfix
-  &:before
-    display: block
-    visibility: hidden
-    overflow: hidden
-    width: 0
-    height: 0
-    content: "."
-    font-size: 0
-    line-height: 0
-  &:after
-    display: block
-    visibility: hidden
-    overflow: hidden
-    width: 0
-    height: 0
-    content: "."
-    font-size: 0
-    line-height: 0
-    clear: both
-  zoom: 1
-
-
-
-img, object, embed, video
-  max-width: $col_12
-
-[class*='col_']
-  position: relative
-  display: block
-  float: left
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
-  padding: .5em
-  *behavior: url(htc/boxsizing.htc)
-
-.row
-  position: relative
-  display: block
-  float: left
-  clear: both
-  width: $col_12
