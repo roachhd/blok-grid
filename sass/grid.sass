@@ -3,10 +3,12 @@
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
   box-sizing: border-box
-  margin-right: auto
-  margin-left: auto
-  padding-right: .5em
-  padding-left: .5em
+  margin:
+    right: auto
+    left: auto
+  padding:
+    right: .5em
+    left: .5em
   width: $col_12
 
 .col_m_1
@@ -187,7 +189,7 @@
     width: $col_6
   .col_t_7
     width: $col_7
-  .col_t_8.col_t_two_thirds
+  .col_t_8, .col_t_two_thirds
     width: $col_8
   .col_t_9, .col_t_three_quarters
     width: $col_9
@@ -430,10 +432,12 @@
   img
     max-width: $col_12
   .container
-    margin-right: auto
-    margin-right: auto
-    padding-right: .5em
-    padding-left: .5em
+    margin:
+      right: auto
+      left: auto
+    padding:
+      right: .5em
+      left: .5em
     width: 960px
 
   [class*='col_']
@@ -736,7 +740,7 @@
   padding: .5em
 
 .zero
-  padding: 0
+  padding: 0 !important
 
 .clearfix
   &:before
@@ -759,8 +763,6 @@
     line-height: 0
     clear: both
   zoom: 1
-
-
 
 img, object, embed, video
   max-width: $col_12
