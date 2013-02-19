@@ -1,0 +1,119 @@
+/*------------------Reset------------------ */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-size: 100%; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  vertical-align: baseline; }
+
+ins {
+  background-color: #ffff99;
+  color: black;
+  text-decoration: none; }
+
+mark {
+  background-color: #ffff99;
+  color: black;
+  font-weight: 700;
+  font-style: italic; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table border {
+  spacing: 0;
+  collapse: collapse; }
+
+input, select {
+  vertical-align: middle; }
+
+html, button, input, select, textarea {
+  color: #222222; }
+
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+img {
+  vertical-align: middle; }
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+textarea {
+  resize: vertical; }
+
+.chromeframe {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  background: #cccccc;
+  color: black; }
+
+.ir {
+  overflow: hidden;
+  border: 0;
+  background-color: transparent;
+  *text-indent: -9999px; }
+  .ir:before {
+    display: block;
+    width: 0;
+    height: 150%;
+    content: ""; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0; }
+  .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    position: static;
+    overflow: visible;
+    clip: auto;
+    margin: 0;
+    width: auto;
+    height: auto; }
+
+.invisible {
+  visibility: hidden; }
