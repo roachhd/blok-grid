@@ -14,17 +14,26 @@ $col_12: 100%;
 $col_gsb: 38%;
 $col_gct: 62%;
 
+/*----------------------------------------------
+----------------------grid----------------------
+----------------------------------------------*/
+
+
 /*------------------Mobile Grid------------------ */
+[class*='col_'] {
+  position: relative;
+  display: block;
+  float: left;
+  padding: 0.5em; 
+  @include box-sizing;}
 
 .container {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  width: $col_12; 
   margin-right: auto;
   margin-left: auto;
   padding-right: 0.5em;
   padding-left: 0.5em;
-  width: $col_12; }
+  @include box-sizing; }
 
 .col_m_1 {
   width: $col_1; }
@@ -474,15 +483,14 @@ $col_gct: 62%;
     margin-left: auto;
     padding-right: 0.5em;
     padding-left: 0.5em;
-    width: 960px; }
+    width: 960px;
+    @include box-sizing; }
   [class*='col_'] {
     position: relative;
     display: block;
     float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0.5em; }
+    padding: 0.5em;
+    @include box-sizing; }
   .row {
     position: relative;
     display: block;
@@ -776,16 +784,6 @@ $col_gct: 62%;
 
 img, object, embed, video {
   max-width: $col_12; }
-
-[class*='col_'] {
-  position: relative;
-  display: block;
-  float: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0.5em;
-  *behavior: url(htc/boxsizing.htc); }
 
 .row {
   position: relative;
