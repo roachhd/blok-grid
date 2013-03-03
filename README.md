@@ -3,7 +3,7 @@ Blok Grid System
 
 ######***a work in progress***
   
-***Responsive CSS Grid System***
+***Responsive CSS Grid System, Now Built With Compass***
 
 ###What is Blok?
 ---
@@ -13,6 +13,10 @@ Blok helps get your websites up and running whilst not restricting you to a stri
 It uses a custom made responsive grid system for all of the latest browsers and has a fallback for older IE8. 
 
 There is also a custom SCSS/CSS file for setting your styles in.
+
+###Important
+---
+If you wish to edit the SCSS directly, then you'll need to use it with Compass. By doing this, it offers far more options to you.
 
 ####Grid
 ---

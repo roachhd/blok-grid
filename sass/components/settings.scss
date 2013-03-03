@@ -1,0 +1,104 @@
+//settings
+
+//colors
+$body-color: #efefef;
+$color-01: #67717a;
+$color-02: #c0d1d8;
+$color-03: none;
+$color-04: none;
+$heading-color: #3c3c3c;
+$text-color: #3c3c3c;
+$alert-color: #ce0006;
+$highlight-color: #ebecd4;
+$black: #000000;
+$white: #ffffff;
+$light-edge: rgba(#fff, .5);
+$dark-edge: rgba(#000, .5);
+$link-normal-color: #bb8b88;
+$link-hover-color: darken($link-normal-color, 10%);
+$link-active-color: darken($link-normal-color, 10%);
+$link-visited-color: #bb8b88;
+$link-focus-color: darken($link-normal-color, 10%);
+$pre-bg-color: #ffffff;
+
+//borders
+//example: [ solid 1px #99999 ] or [ solid 1px $color-03 ]
+$border-01: solid 1px darken($body-color, 10%);
+$border-02: none;
+$border-03: none;
+$border-04: none;
+
+//font settings
+//font families
+$heading-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$body-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$mono-font-family: 'Courier New', Courier, monospace;
+//baseline
+$base-size: 16px;
+$base-line: 25px;
+$font-smoothing: antialiased;
+//font elements
+//body
+$body-text-color: $text-color;
+$body-weight: 300;
+$body-style: normal;
+//h1
+$h1-size: 24px;
+$h1-color: $heading-color;
+$h1-font-family: $heading-font-family;
+$h1-weight: 400;
+$h1-style: normal;
+//h2
+$h2-size: 22px;
+$h2-color: $heading-color;
+$h2-font-family: $heading-font-family;
+$h2-weight: 400;
+$h2-style: normal;
+//h3
+$h3-size: 20px;
+$h3-color: $heading-color;
+$h3-font-family: $heading-font-family;
+$h3-weight: 400;
+$h3-style: normal;
+//h4
+$h4-size: 18px;
+$h4-color: $heading-color;
+$h4-font-family: $heading-font-family;
+$h4-weight: 400;
+$h4-style: normal;
+//h5
+$h5-size: 16px;
+$h5-color: $heading-color;
+$h5-font-family: $heading-font-family;
+$h5-weight: 400;
+$h5-style: normal;
+//h6
+$h6-size: 14px;
+$h6-color: $heading-color;
+$h6-font-family: $heading-font-family;
+$h6-weight: 400;
+$h6-style: normal;
+//p
+$p-size: $base-size;
+$p-color: $body-text-color;
+$p-font-family: $body-font-family;
+$p-weight: 300;
+$p-style: normal;
+//pre
+$pre-size: $base-size;
+$pre-color: $text-color;
+$pre-font-family: $mono-font-family;
+$pre-weight: 300;
+$pre-style: normal;
+$pre-border: $border-01;
+//abbr, acronym
+$abbr-border: 1px dotted darken($body-color, 30%);
+//address
+$address-size: $base-size;
+$address-color: $body-text-color;
+$address-font-family: $body-font-family;
+$address-weight: 300;
+$address-style: italic !important;
+
+
+
