@@ -185,10 +185,10 @@ input[type="week"] {
   margin: 0;
   padding: 2px 3px;
   text-align: left;
-  font-size: 13px;
+  font-size: $base-size;
   // Leaving out Helvetica Neue, to not throw off size="..."
   // on inputs. Arial is more reliable, on Windows and OS X.
-  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: $body-font-family; //Arial, "Liberation Sans", FreeSans, sans-serif;
   height: 1.8em;
   vertical-align: top;
   // IE7
