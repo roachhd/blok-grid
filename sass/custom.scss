@@ -3,14 +3,24 @@
 ----------------------------------------------*/						
 @import "compass";
 @import "compass/layout";
+@import "settings";
 /*----------Mobile---------- */
 /*--Global-- */
 /*--Header-- */
 /*--Content-- */
 /*--Footer-- */
+#copyright {
+	text-align: center;
+}
+#dev {
+	text-align: center;
+}
 /*--Helper-- */
+.hlpCenter {
+	text-align: center;
+}
 /*----------Tablet---------- */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: $tablet_break) {
 	/*--Global-- */
 	/*--Header-- */
 	/*--Content-- */
@@ -19,9 +29,27 @@
   
 /*----------Desktop---------- */ 
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: $desktop_break) {
 	/*--Global-- */
 	/*--Header-- */
+	#main_nav {
+		margin-top: 1em;
+		ul {
+			@include inline-block-list-container;
+			li {
+				@include inline-block-list-item;
+			}
+			li+li {
+				margin-left: $base-size;
+			}
+		}
+	}
 	/*--Content-- */
 	/*--Footer-- */
+	#copyright {
+	text-align: left;
+	}
+	#dev {
+		text-align: right;
+	}
 	/*--Helper-- */}

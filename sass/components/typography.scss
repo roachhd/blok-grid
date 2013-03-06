@@ -166,3 +166,6 @@ address {
 	}
 	@include adjust-font-size-to($address-size);
 }
+small {
+	@include adjust-font-size-to($base-size / 100 * 80);
+}

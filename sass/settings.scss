@@ -1,5 +1,13 @@
 //settings
-
+//baseline settings
+$base-size: 16px;
+$base-line: 25px;
+//grid settings
+$grid-columns: 12; //select the number of columns in the grid
+$gutter: $base-size; //keep $base-size for relatively sized gutters
+//break points
+$tablet_break: 481px;
+$desktop_break: 769px;
 //colors
 $body-color: #efefef;
 $color-01: #67717a;
@@ -34,8 +42,7 @@ $heading-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica 
 $body-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $mono-font-family: 'Courier New', Courier, monospace;
 //baseline
-$base-size: 16px;
-$base-line: 25px;
+
 $font-smoothing: antialiased;
 //font elements
 //body

@@ -6,38 +6,53 @@
 ---------------------forms----------------------
 --------check out http://formalize.me/---------*/
 
+// The forms have been slightly edited from the 
+// original Formalize to use percentages instad 
+// of pixels for better responsive design integration.
+
 
 // `Widths
 //----------------------------------------------------------------------------------------------------
 
-.input_tiny {
-  width: 50px;
+.input_1 {
+  width: 100% / 12;
 }
-
-.input_small {
-  width: 100px;
+.input_2 {
+  width: 100% / 12 * 2;
 }
-
-.input_medium {
-  width: 150px;
+.input_3 {
+  width: 100% / 12 * 3;
 }
-
-.input_large {
-  width: 200px;
+.input_4 {
+  width: 100% / 12 * 4;
 }
-
-.input_xlarge {
-  width: 250px;
+.input_5 {
+  width: 100% / 12 * 5;
 }
-
-.input_xxlarge {
-  width: 300px;
+.input_6 {
+  width: 100% / 12 * 6;
 }
-
-.input_full {
+.input_7 {
+  width: 100% / 12 * 7;
+}
+.input_8 {
+  width: 100% / 12 * 8;
+}
+.input_9 {
+  width: 100% / 12 * 9;
+}
+.input_10 {
+  width: 100% / 12 * 10;
+}
+.input_11 {
+  width: 100% / 12 * 11;
+}
+.input_12 {
   width: 100%;
 }
-
+.input_height_10 {
+  height: 10em;
+}
 // Added via JS to <textarea> and class="input-full".
 // Applies only to IE7. Other browsers don't need it.
 
@@ -52,7 +67,13 @@
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
-
+input,
+button,
+a.button,
+select,
+textarea {
+  @include box-sizing("border-box");
+}
 input,
 button,
 a.button,
