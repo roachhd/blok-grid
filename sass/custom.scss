@@ -19,6 +19,16 @@
 .hlpCenter {
 	text-align: center;
 }
+.iex {
+	#main_nav {
+		margin-top: .5em;
+		ul {
+			li {
+				display: inline;
+			}
+		}
+	}
+}
 /*----------Tablet---------- */
 @media only screen and (min-width: $tablet_break) {
 	/*--Global-- */
@@ -44,6 +54,7 @@
 			}
 		}
 	}
+
 	/*--Content-- */
 	/*--Footer-- */
 	#copyright {

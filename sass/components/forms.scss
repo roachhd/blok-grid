@@ -7,7 +7,7 @@
 --------check out http://formalize.me/---------*/
 
 // The forms have been slightly edited from the 
-// original Formalize to use percentages instad 
+// original Formalize to use percentages instead 
 // of pixels for better responsive design integration.
 
 
@@ -188,7 +188,7 @@ input[type="week"] {
   font-size: $base-size;
   // Leaving out Helvetica Neue, to not throw off size="..."
   // on inputs. Arial is more reliable, on Windows and OS X.
-  font-family: $body-font-family; //Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: $form-font; 
   height: 1.8em;
   vertical-align: top;
   // IE7
