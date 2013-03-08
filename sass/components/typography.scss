@@ -1,6 +1,10 @@
 /*------------------------------------
 --------------Typography--------------
 ------------------------------------*/
+html {
+    -webkit-text-size-adjust: none !important; /* Prevent font scaling in landscape */
+}
+
 $base-font-size: $base-size;
 $base-line-height: $base-line;
 @include establish-baseline;
@@ -12,6 +16,7 @@ body {
 		style: $body-style;
 	}
 	background-color: $body-color;
+	font-smoothing: font-smoothing;
 }
 p, pre, blockquote, address, ul {
 	@include rhythm(.5);
