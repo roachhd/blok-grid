@@ -1,4 +1,0 @@
-$table-color: #f4f4f4;
-table {
-	@include alternating-rows-and-columns($table-color, adjust-hue($table-color, -120deg), #222222);
-}

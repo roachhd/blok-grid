@@ -1,40 +1,65 @@
 //settings
+
 //baseline settings
 $base-size: 16px;
 $base-line: 25px;
 //grid settings
 $grid-columns: 12; //select the number of columns in the grid
-$gutter: $base-size; //keep $base-size for relatively sized gutters
+$margin: 2%;
+$padding: 2%;
+$gutter: $margin;
+
 //break points
-$tablet_break: 481px;
-$desktop_break: 769px;
+$wide_break: 440px;
+$tablet_break: 768px;
+$desktop_break: 960px;
+$super_break: 1232px;
+
+//container widths
+//If you want to have adaptive then uncomment the lines for adaptive and comment the responsive lines.
+
+//responsive
+$mobile_width: 96%;
+$wide_width: 96%;
+$tablet_width: 96%;
+$desktop_width: 96%;
+$super_width: 96%;
+
+//adaptive
+//$mobile_width: 320px;
+//$wide_width: $wide_break;
+//$tablet_width: $tablet_break;
+//$desktop_width: $desktop_break;
+//$super_width: $super_break;
+
 //colors
-$body-color: #efefef;
-$color-01: #67717a;
-$color-02: #c0d1d8;
-$color-03: none;
-$color-04: none;
-$heading-color: #3c3c3c;
-$text-color: #3c3c3c;
+$color01: #fcfcfc; // Almost White
+$color02: #e36e25; // Orange
+$color03: #8ba0a0; // Murky Green/Blue
+$color04: #5f707a; // Dark Blue
+$color05: #303030; // Almost Black
+$body-color: $color01;
+$heading-color: $color05;
+$text-color: $color05;
 $alert-color: #ce0006;
-$highlight-color: #ebecd4;
+$highlight-color: #ffffff;
 $black: #000000;
 $white: #ffffff;
 $light-edge: rgba(#fff, .5);
 $dark-edge: rgba(#000, .5);
-$link-normal-color: #bb8b88;
-$link-hover-color: darken($link-normal-color, 10%);
-$link-active-color: darken($link-normal-color, 10%);
-$link-visited-color: #bb8b88;
-$link-focus-color: darken($link-normal-color, 10%);
+$link-normal-color: $color05;
+$link-hover-color: lighten($link-normal-color, 10%);
+$link-active-color: lighten($link-normal-color, 10%);
+$link-visited-color: $link-normal-color;
+$link-focus-color: lighten($link-normal-color, 10%);
 $pre-bg-color: #ffffff;
 
 //borders
 //example: [ solid 1px #99999 ] or [ solid 1px $color-03 ]
-$border-01: solid 1px darken($body-color, 10%);
-$border-02: none;
-$border-03: none;
-$border-04: none;
+$border01: solid 1px darken($body-color, 4%);
+$border02: none;
+$border03: none;
+$border04: none;
 
 //font settings
 //font families
@@ -53,37 +78,37 @@ $body-style: normal;
 $h1-size: 24px;
 $h1-color: $heading-color;
 $h1-font-family: $heading-font-family;
-$h1-weight: 400;
+$h1-weight: 300;
 $h1-style: normal;
 //h2
 $h2-size: 22px;
 $h2-color: $heading-color;
 $h2-font-family: $heading-font-family;
-$h2-weight: 400;
+$h2-weight: 300;
 $h2-style: normal;
 //h3
 $h3-size: 20px;
 $h3-color: $heading-color;
 $h3-font-family: $heading-font-family;
-$h3-weight: 400;
+$h3-weight: 300;
 $h3-style: normal;
 //h4
 $h4-size: 18px;
 $h4-color: $heading-color;
 $h4-font-family: $heading-font-family;
-$h4-weight: 400;
+$h4-weight: 300;
 $h4-style: normal;
 //h5
 $h5-size: 16px;
 $h5-color: $heading-color;
 $h5-font-family: $heading-font-family;
-$h5-weight: 400;
+$h5-weight: 300;
 $h5-style: normal;
 //h6
 $h6-size: 14px;
 $h6-color: $heading-color;
 $h6-font-family: $heading-font-family;
-$h6-weight: 400;
+$h6-weight: 300;
 $h6-style: normal;
 //p
 $p-size: $base-size;
@@ -97,7 +122,7 @@ $pre-color: $text-color;
 $pre-font-family: $mono-font-family;
 $pre-weight: 300;
 $pre-style: normal;
-$pre-border: $border-01;
+$pre-border: $border01;
 //abbr, acronym
 $abbr-border: 1px dotted darken($body-color, 30%);
 //address

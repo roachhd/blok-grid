@@ -19,9 +19,8 @@ body {
 	font-smoothing: font-smoothing;
 }
 p, pre, blockquote, address, ul {
-	@include rhythm(.5);
 }
-h1 {
+h1, .h1 {
 	color: $h1-color;
 	font: {
 		family: $h1-font-family;
@@ -30,7 +29,7 @@ h1 {
 	}
 	@include adjust-font-size-to($h1-size);
 }
-h2 {
+h2, .h2 {
 	color: $h2-color;
 	font: {
 		family: $h2-font-family;
@@ -39,7 +38,7 @@ h2 {
 	}
 	@include adjust-font-size-to($h2-size);
 }
-h3 {
+h3, .h3 {
 	color: $h3-color;
 	font: {
 		family: $h3-font-family;
@@ -48,7 +47,7 @@ h3 {
 	}
 	@include adjust-font-size-to($h3-size);
 }
-h4 {
+h4, .h4 {
 	color: $h4-color;
 	font: {
 		family: $h4-font-family;
@@ -57,7 +56,7 @@ h4 {
 	}
 	@include adjust-font-size-to($h4-size);
 }
-h5 {
+h5, .h5 {
 	color: $h5-color;
 	font: {
 		family: $h5-font-family;
@@ -66,7 +65,7 @@ h5 {
 	}
 	@include adjust-font-size-to($h5-size);
 }
-h6 {
+h6, .h6 {
 	color: $h6-color;
 	font: {
 		family: $h6-font-family;
@@ -106,7 +105,7 @@ code {
 	}
 	background: $highlight-color;
 	padding: .1em;
-	border: $border-01;
+	border: $border04;
 	overflow: hidden;
 	@include border-radius (3px);
 }
@@ -115,31 +114,6 @@ nav {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-	}
-}
-ul {
-	list-style-type:disc;
-	margin-left: 1.5em;
-	ul {
-		list-style-type:circle;
-		margin-left: 1.5em;
-		margin-top: 0;
-		ul {
-			list-style-type:square;
-			margin-left: 1.5em;
-		}
-	}
-}
-ol {
-	list-style-type:decimal;
-	margin-left: 1.5em;
-}
-dl {
-	margin:0 0 1.5em;
-}
-dl {
-	dt {
-		font-weight: 700;
 	}
 }
 dd {
