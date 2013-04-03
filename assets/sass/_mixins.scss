@@ -18,10 +18,6 @@ img {
  
 .clearfix {
   zoom: 1; }
-
-/*********************
-TOOLS
-*********************/
 /*
 * {
 	-webkit-box-sizing: border-box;
@@ -33,18 +29,6 @@ TOOLS
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden; }
-
-/*********************
-TYPOGRAPHY
-*********************/
-
-/* 	To embed your own fonts, use this syntax
-	and place your fonts inside the
-	library/fonts folder. For more information
-	on embedding fonts, go to:
-	http://www.fontsquirrel.com/
-	Be sure to remove the comment brackets.
-*/
 
 /*	@font-face {
     	font-family: 'Font Name';
@@ -58,17 +42,9 @@ TYPOGRAPHY
 	}
 */
 
-/*
-use the best ampersand
-http://simplebits.com/notebook/2008/08/14/ampersands-2/
-*/
 span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;}
-
-/*********************
-TRANSITION
-*********************/
 
 @mixin transition($transition...) {
 	// defining prefixes so we can use them in mixins below
@@ -80,19 +56,12 @@ TRANSITION
   transition: $transition;
 }
 
-
-/*********************
-BOX SIZING
-*********************/
-
-/* @include box-sizing(border-box); */
 @mixin box-sizing($type: border-box) {
 	-webkit-box-sizing: $type;
 	-moz-box-sizing:    $type;
 	-ms-box-sizing:     $type;
 	box-sizing:         $type;
 }
-
 
 @mixin round ($radius: 50%) {
 	-moz-border-radius: $radius;
