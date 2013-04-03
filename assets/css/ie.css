@@ -1,23 +1,10 @@
 .iex {
-  /*********************
-  TOOLS
-  *********************/
   /*
   * {
   	-webkit-box-sizing: border-box;
   	-moz-box-sizing:    border-box;
   	box-sizing:         border-box;
   }
-  */
-  /*********************
-  TYPOGRAPHY
-  *********************/
-  /* 	To embed your own fonts, use this syntax
-  	and place your fonts inside the
-  	library/fonts folder. For more information
-  	on embedding fonts, go to:
-  	http://www.fontsquirrel.com/
-  	Be sure to remove the comment brackets.
   */
   /*	@font-face {
       	font-family: 'Font Name';
@@ -30,17 +17,6 @@
       	font-style: normal;
   	}
   */
-  /*
-  use the best ampersand
-  http://simplebits.com/notebook/2008/08/14/ampersands-2/
-  */
-  /*********************
-  TRANSITION
-  *********************/
-  /*********************
-  BOX SIZING
-  *********************/
-  /* @include box-sizing(border-box); */
   /* normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
   /* ==========================================================================
      HTML5 display definitions
@@ -221,9 +197,6 @@
   to remove them if you like or add your own. If you want to update
   the normalize styles, make sure to edit from this point up.
   ******************************************************************/
-  /*------------------------------------
-  --------------Typography--------------
-  ------------------------------------*/
   /*********************
   GENERAL STYLES
   *********************/
