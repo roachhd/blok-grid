@@ -5936,6 +5936,8 @@ view.
     float: left; }
   .iex .right_s_float {
     float: right; }
+  .iex .container {
+    width: 1232px; }
 
 @media print {
   * {
