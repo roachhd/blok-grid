@@ -1,7 +1,7 @@
 .row {
-  width: 100%; }
+  width: $col_full; }
 .row_#{$viewport} {
-  width: 100%; }
+  width: $col_full; }
 .col_#{$viewport}_1 {
   width: $col_1; }
 .col_#{$viewport}_2 {
@@ -66,7 +66,7 @@
   width: $col_gldn_sml; }
 .col_#{$viewport}_gldn_lrg {
   width: $col_gldn_lrg; }
-[class*='push_#{$viewport}_'] {
+[class*='push_'] {
   position: relative; }
 .push_#{$viewport}_reset {
   left: 0; }
@@ -130,7 +130,7 @@
   left: $col_three_quarters;}
 .push_#{$viewport}_full {
   left: $col_full;}
-[class*='pull_#{$viewport}_'] {
+[class*='pull_'] {
   position: relative; }
 .pull_#{$viewport}_reset {
   left: 0; }
@@ -590,3 +590,14 @@
   float: left; }
 .right_#{$viewport}_float {
   float: right; }
+//first / last
+.first_#{$viewport} {
+  margin-left: 0;
+  width: inherit +2%; }
+.first_#{$viewport}_r {
+  margin-left: 0;
+  width: inherit +2%; }
+.last_#{$viewport} {
+  width: inherit +2%; }
+.last_#{$viewport}_r {
+  width: inherit +2%; }

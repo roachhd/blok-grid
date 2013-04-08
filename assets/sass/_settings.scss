@@ -3,11 +3,30 @@
 //baseline settings
 $base-size: 16px;
 $base-line: 25px;
+
+
+// If you want to use margins instead of box-sizing, uncomment the second option below and comment the first.
+// Remember to uncomment and comment the type of columns you want to use too in the grid/columns.scss file.
+
 //grid settings
+
+//box-sizing
+@mixin gutter {
+	padding: $base-size / 2;
+	@include box-sizing("border-box");
+}
+
+//margins
+/*
+@mixin gutter {
+	margin: $base-size / 2;
+}
+*/
 $grid-columns: 12; //select the number of columns in the grid
 $margin: 2%;
 $padding: 2%;
 $gutter: $margin;
+$container_padding: $base-size / 2;
 
 //break points
 $wide_break: 440px;

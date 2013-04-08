@@ -2,9 +2,8 @@ $viewport: m;
 [class*='col_'] {
   position: relative;
   display: block;
-  float: left;
-  margin: $gutter / 2;
-  /*@include box-sizing("border-box");*/ }
+  float: left; 
+  @include gutter;}
 [class*='row_'] {
   position: relative;
   display: block;
@@ -14,5 +13,5 @@ $viewport: m;
   width: $mobile_width; 
   margin-right: auto;
   margin-left: auto;
-  /*@include box-sizing("border-box");*/ }
+  padding: $container_padding; }
 @import "../grid";
