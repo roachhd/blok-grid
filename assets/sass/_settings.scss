@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
 //settings
 
 //baseline settings
@@ -26,7 +27,7 @@ $grid-columns: 12; //select the number of columns in the grid
 $margin: 2%;
 $padding: 2%;
 $gutter: $margin;
-$container_padding: $base-size / 2;
+$container_padding:0;
 
 //break points
 $wide_break: 440px;
@@ -51,13 +52,16 @@ $super_width: 96%;
 //$desktop_width: $desktop_break;
 //$super_width: $super_break;
 
+// if you want to use box-
+
 //colors
 $color01: #fcfcfc; // Almost White
 $color02: #e36e25; // Orange
 $color03: #8ba0a0; // Murky Green/Blue
 $color04: #5f707a; // Dark Blue
 $color05: #303030; // Almost Black
-$body-color: $color01;
+
+$body-color: darken($color01, 5%);
 $heading-color: $color05;
 $text-color: $color05;
 $alert-color: #ce0006;
@@ -66,23 +70,24 @@ $black: #000000;
 $white: #ffffff;
 $light-edge: rgba(#fff, .5);
 $dark-edge: rgba(#000, .5);
-$link-normal-color: $color05;
+
+$link-normal-color: $color02;
 $link-hover-color: lighten($link-normal-color, 10%);
 $link-active-color: lighten($link-normal-color, 10%);
 $link-visited-color: $link-normal-color;
 $link-focus-color: lighten($link-normal-color, 10%);
-$pre-bg-color: #ffffff;
+$pre-bg-color: lighten($body-color, 3%);
 
 //borders
 //example: [ solid 1px #99999 ] or [ solid 1px $color-03 ]
 $border01: solid 1px darken($body-color, 4%);
-$border02: none;
+$border02: solid 1px $color02;
 $border03: none;
 $border04: none;
 
 //font settings
 //font families
-$heading-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$heading-font-family: 'Muli', sans-serif;
 $body-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $mono-font-family: 'Courier New', Courier, monospace;
 //baseline
@@ -94,19 +99,19 @@ $body-text-color: $text-color;
 $body-weight: 300;
 $body-style: normal;
 //h1
-$h1-size: 24px;
+$h1-size: 35px;
 $h1-color: $heading-color;
 $h1-font-family: $heading-font-family;
 $h1-weight: 300;
 $h1-style: normal;
 //h2
-$h2-size: 22px;
+$h2-size: 30px;
 $h2-color: $heading-color;
 $h2-font-family: $heading-font-family;
 $h2-weight: 300;
 $h2-style: normal;
 //h3
-$h3-size: 20px;
+$h3-size: 25px;
 $h3-color: $heading-color;
 $h3-font-family: $heading-font-family;
 $h3-weight: 300;
@@ -152,9 +157,3 @@ $address-weight: 300;
 $address-style: italic !important;
 //form settings
 $form-font: $body-font-family; //Arial, "Liberation Sans", FreeSans, sans-serif;
-
-
-
-
-
-

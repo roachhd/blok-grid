@@ -14,4 +14,7 @@ $viewport: m;
   margin-right: auto;
   margin-left: auto;
   padding: $container_padding; }
+img {
+  max-width: 100%;
+}
 @import "../grid";

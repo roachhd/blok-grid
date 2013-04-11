@@ -52,13 +52,6 @@ span.amp {
   transition: $transition;
 }
 
-@mixin box-sizing($type: border-box) {
-	-webkit-box-sizing: $type;
-	-moz-box-sizing:    $type;
-	-ms-box-sizing:     $type;
-	box-sizing:         $type;
-}
-
 @mixin round ($radius: 50%) {
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;

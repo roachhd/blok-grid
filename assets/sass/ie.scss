@@ -1,8 +1,10 @@
 .iex {
+	@import "compass";
 	@import "settings";
 	@import "grid/columns";
 	@import "mixins";
 	@import "compass/layout";
+	@import "normalize";
 	@import "typography";
 	@import "grid/gridMobile";
 	@import "custom/customMobile";
