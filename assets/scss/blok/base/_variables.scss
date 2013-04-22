@@ -1,0 +1,216 @@
+//settings
+
+// Baseline Settings
+//-------------------------------------------
+@include establish-baseline;
+
+$base-font-size: 				16px;
+$base-line-height: 				25px;
+$relative-font-sizing: 			true;
+
+
+
+
+
+
+// Grid Settings
+//-------------------------------------------
+
+$grid-columns: 	12; //select the number of columns in the grid
+$gutter: 		1em;
+
+// Container Padding
+$mobile-container-padding: 		$base-font-size / 2;
+$wide-container-padding: 		$base-font-size / 2;
+$tablet-container-padding: 		$base-font-size / 2;
+$desktop-container-padding: 	$base-font-size / 2;
+$super-container-padding: 		$base-font-size / 2;
+
+// Break Points
+$wide-break: 		440px;
+$tablet-break: 		768px;
+$desktop-break: 	960px;
+$super-break: 		1232px;
+
+// Container Widths
+//If you want to have adaptive then uncomment the lines for adaptive and comment the responsive lines.
+
+// Responsive
+$mobile-width: 		100%;
+$wide-width: 		100%;
+$tablet-width: 		100%;
+$desktop-width: 	96%;
+$super-width: 		96%;
+
+// Adaptive
+//$mobile_width: 	320px;
+//$wide_width: 		$wide-break;
+//$tablet_width: 	$tablet-break;
+//$desktop_width: 	$desktop-break;
+//$super_width: 	$super-break;
+
+
+
+
+
+
+
+// Colors
+//-------------------------------------------
+
+// Shades 
+$black:      		#000 !default;
+$gray-darker: 		#222 !default;
+$gray-dark:   		#333 !default;
+$gray:       		#555 !default;
+$gray-light:  		#999 !default;
+$gray-lighter:		#eee !default;
+$white:      		#fff !default;
+
+// Accents 
+$blue:    			#049cdb !default;
+$blue-dark:			#0064cd !default;
+$green:   			#46a546 !default;
+$red:     			#9d261d !default;
+$yellow:  			#ffc40d !default;
+$orange:  			#f89406 !default;
+$pink:    			#c3325f !default;
+$purple:  			#7a43b6 !default;
+
+// Custom Colors
+$color01:			#fcfcfc; // Almost White
+$color02:			#e36e25; // Orange
+$color03:			#8ba0a0; // Murky Green/Blue
+$color04:			#5f707a; // Dark Blue
+$color05:			#303030; // Almost Black
+
+$body-color: 		$gray-lighter;
+$heading-color: 	$gray-dark;
+$text-color: 		$gray-dark;
+$header-color:		$gray-dark;
+$alert-color: 		$red;
+$highlight-color: 	$white;
+$light-edge: 		rgba(#fff, .5);
+$dark-edge: 		rgba(#000, .5);
+
+$warning-text:			$yellow;
+$warning-background:	lighten($yellow, 30%);
+$error-text:			$red;
+$error-background:		lighten($red, 30%);
+$success-text:			$green;
+$success-background:	lighten($green, 30%);
+$info-text:				$blue;
+$info-background:		lighten($blue, 30%);
+
+
+
+
+
+// Links
+//-------------------------------------------
+
+$link-normal-color: 		$blue;
+$link-hover-color: 			lighten($link-normal-color, 10%);
+$link-active-color: 		lighten($link-normal-color, 10%);
+$link-visited-color: 		$link-normal-color;
+$link-focus-color: 			lighten($link-normal-color, 10%);
+$link-text-decoration: 		none;
+$pre-bg-color: 				lighten($body-color, 3%);
+
+//borders
+//example: [ solid 1px #99999 ] or [ solid 1px $color-03 ]
+$border01: 					solid 1px darken($body-color, 4%);
+$border02: 					solid 1px $color02;
+$border03: 					none;
+$border04: 					none;
+$hr-border: 				$gray;
+
+
+
+
+
+
+
+// Font Settings
+//-------------------------------------------
+
+// Font Families
+$sans-font-family: 		"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serif-font-family:		Georgia, "Times New Roman", Times, serif !default;
+$mono-font-family: 		Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$heading-font-family: 	$sans-font-family;
+$body-font-family: 		$sans-font-family;
+$mono-font-family: 		$mono-font-family;
+
+// Font Weight
+$font-weight-light: 	300;
+$font-weight-medium: 	400;
+$font-weight-heavy: 	600;
+
+// h1, h2, h3 Group
+$h1-h2-h3-font-family: 	$sans-font-family;
+$h1-h2-h3-color: 		$gray-dark;
+$h1-h2-h3-weight:		$font-weight-light;
+$h1-h2-h3-style:		normal;
+
+// h4, h5, h6 Group
+$h4-h5-h6-font-family: 	$sans-font-family;
+$h4-h5-h6-color: 		$gray-dark;
+$h4-h5-h6-weight:		$font-weight-heavy;
+$h4-h5-h6-style:		normal;
+
+//font elements
+//body
+$body-text-color: 		$text-color;
+$body-weight: 			$font-weight-light;
+$body-style: 			normal;
+
+//h1
+$h1-size: 				35px;
+//h2	
+$h2-size: 				30px;
+//h3	
+$h3-size: 				25px;
+//h4	
+$h4-size: 				18px;
+//h5	
+$h5-size: 				16px;
+//h6	
+$h6-size: 				14px;
+
+//h1
+$h1-size-small: 				24px;
+//h2	
+$h2-size-small: 				18px;
+//h3	
+$h3-size-small: 				$base-font-size;
+//h4	
+$h4-size-small: 				$base-font-size;
+
+// Pre
+$pre-size: $base-font-size;
+$pre-color: $text-color;
+$pre-font-family: $mono-font-family;
+$pre-weight: $body-weight;
+$pre-style: normal;
+$pre-border: $border01;
+$pre-background: $white;
+$pre-padding: $base-font-size;
+
+// Code
+$code-font-family: $mono-font-family;
+$code-border: solid 1px darken($body-color, 20%);
+$code-padding: $base-font-size / 8;
+$code-radius: 3px;
+$code-background: $white;
+
+//address
+$address-size: $base-font-size;
+$address-color: $text-color;
+$address-font-family: $sans-font-family;
+$address-weight: 300;
+$address-style: italic !important;
+
+// abbr border 
+$abbr-border: 1px dotted $gray-dark;

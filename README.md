@@ -20,13 +20,12 @@ There is also a custom SCSS/CSS files for setting your styles in.
 * can select between 1 and 24 columns
 * can set a custom gutter size
 * easy to customise to suit your needs
+* is a great starting point for a project
 
 
 ###Important
 ---
 If you wish to edit the SCSS directly, then you'll need to use it with Compass. By doing this, it offers far more options to you.
-
-Because Compass has not been heavily used, it is easy to remove and use without.
 
 ####Grid
 ---
@@ -62,9 +61,16 @@ Jordan.
 
 ####Updates
 ---
+22/04/13
+
+* restored box-sizing as default method
+* simplified the SCSS
+* moved IE styles to a separate stylesheet
+* fixed some errors
+
 03/04/13
 
-* removed box-sizing and kept it as an option. 
+* removed box-sizing and kept it as an option
 * added margins to the columns
 * margin size can be specified from the settings.scss
 * added column number to the settings.scss so you can use between 1 and 24 columns

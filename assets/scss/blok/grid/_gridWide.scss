@@ -1,0 +1,5 @@
+$viewport: w;
+.container {
+  padding: $wide-container-padding;
+  width: $wide-width; }
+@import "grid";

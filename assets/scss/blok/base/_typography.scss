@@ -1,0 +1,193 @@
+p {
+    margin: 0 0 $base-line-height / 2;
+}
+.lead {
+    margin-bottom: $base-line-height;
+    font-weight: 200;
+    font-size: $base-font-size * 1.5;
+    line-height: $base-line-height * 1.5;
+}
+
+small   { 
+    font-size: 85%; 
+}
+
+strong  { 
+    font-weight: bold; 
+}
+em      { 
+    font-style: italic; 
+}
+cite    { 
+    font-style: normal; 
+}
+
+h1, h2, h3 {
+    margin: ($base-line-height / 2) 0;
+    color: $h1-h2-h3-color;
+    font-weight: $h1-h2-h3-weight;
+    font-family: $h1-h2-h3-font-family;
+    line-height: $base-line-height;
+    text-rendering: optimizelegibility; // Fix the character spacing for headings
+    small {
+        color: $gray-light;
+        font-weight: normal;
+        line-height: 1;
+    }
+}
+
+h4, h5, h6 {
+    margin: ($base-line-height / 2) 0;
+    color: $h4-h5-h6-color;
+    font-weight: $h4-h5-h6-weight;
+    font-family: $h4-h5-h6-font-family;
+    line-height: $base-line-height;
+    text-rendering: optimizelegibility; // Fix the character spacing for headings
+    small {
+        color: $gray-light;
+        font-weight: normal;
+        line-height: 1;
+    }
+}
+
+h1,
+h2,
+h3 { 
+    line-height: $base-line-height * 2; 
+}
+
+h1 { 
+    @include adjust-font-size-to($h1-size); 
+}
+h2 { 
+    @include adjust-font-size-to($h2-size); 
+}
+h3 { 
+    @include adjust-font-size-to($h3-size); 
+}
+h4 { 
+    @include adjust-font-size-to($h4-size); 
+}
+h5 { 
+    @include adjust-font-size-to($h5-size); 
+}
+h6 { 
+    @include adjust-font-size-to($h6-size); 
+}
+
+h1 small { 
+    @include adjust-font-size-to($h1-size-small); 
+}
+h2 small { 
+    @include adjust-font-size-to($h2-size-small); 
+}
+h3 small { 
+    @include adjust-font-size-to($h3-size-small);  
+}
+h4 small { 
+    @include adjust-font-size-to($h4-size-small);  
+}
+
+.page-header {
+    margin: $base-line-height 0 ($base-line-height * 1.5);
+    padding-bottom: ($base-line-height / 2) - 1;
+    border-bottom: 1px solid $gray-lighter;
+}
+
+ul, ol {
+    margin: 0 0 $base-line-height / 2 25px;
+    padding: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-bottom: 0;
+}
+li {
+    line-height: $base-line-height;
+}
+
+dl {
+    margin-bottom: $base-line-height;
+}
+dt,
+dd {
+    line-height: $base-line-height;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: $base-line-height / 2;
+}
+hr {
+    margin: $base-line-height 0;
+    border: 0;
+    border-top: 1px solid $hr-border;
+    border-bottom: 1px solid $white;
+}
+
+abbr {
+    border-bottom: $abbr-border;
+    cursor: help;
+}
+pre {
+    margin-bottom: $base-font-size;
+    padding: $pre-padding;
+    border: $pre-border;
+    background-color: $pre-background;
+    color: $pre-color;
+    font: {
+        family: $pre-font-family;
+        weight: $pre-weight;
+        style: $pre-style;
+    }
+}
+code {
+    @include border-radius ($code-radius);
+    padding: $code-padding;
+    border: $code-border;
+    background-color: $code-background;
+    font-weight: $body-weight;
+    font-size: $base-font-size;
+    font-family: $code-font-family;
+}
+
+address {
+    display: block;
+    margin-bottom: $base-line-height;
+    color: $address-color;
+    line-height: $base-line-height;
+    font: {
+        size: $address-size;
+        family: $address-font-family;
+        weight: $address-weight;
+        style: $address-style;
+    }
+}
+blockquote {
+    margin: 0 0 $base-line-height;
+    padding: 0 0 0 15px;
+    border-left: 5px solid $gray-lighter;
+    p {
+        margin-bottom: 0;
+        font-weight: 300;
+        font-size: $base-font-size * 1.25;
+        line-height: 1.25;
+    }
+    small {
+        display: block;
+        color: $gray-light;
+        line-height: $base-line-height;
+        &:before {
+            content: '\2014 \00A0';
+        }
+}
+    q:before,
+    q:after,
+    blockquote:before,
+    blockquote:after {
+        content: "";
+    }
+}

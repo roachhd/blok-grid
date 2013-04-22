@@ -544,7 +544,7 @@
 .zero_p_#{$viewport} {
   padding: 0; } 
 .zero_p_#{$viewport}_r {
-  padding: $gutter / 2; }
+  padding: $gutter; }
 .zero_p_#{$viewport}_top {
   padding-top: 0; }
 .zero_p_#{$viewport}_right {
@@ -559,25 +559,6 @@
 .zero_p_#{$viewport}_h {
   padding-right: 0;
   padding-left: 0;}
-//zero out margin
-.zero_m_#{$viewport} {
-  margin: 0; } 
-.zero_m_#{$viewport}_top {
- margin-top: 0;}
-.zero_m_#{$viewport}_right {
- margin-right: 0;}
-.zero_m_#{$viewport}_bottom {
- margin-bottom: 0;}
-.zero_m_#{$viewport}_left {
- margin-left: 0;}
-.zero_m_#{$viewport}_v {
-  margin-top: 0;
-  margin-bottom: 0;}
-.zero_m_#{$viewport}_h {
-  margin-right: 0;
-  margin-left: 0;}
-.zero_m_#{$viewport}_r {
-  margin: $gutter / 2 }
 //text align
 .center_#{$viewport}_align  {
   text-align: center; }
@@ -590,14 +571,3 @@
   float: left; }
 .right_#{$viewport}_float {
   float: right; }
-//first / last
-.first_#{$viewport} {
-  margin-left: 0;
-  width: inherit +2%; }
-.first_#{$viewport}_r {
-  margin-left: 0;
-  width: inherit +2%; }
-.last_#{$viewport} {
-  width: inherit +2%; }
-.last_#{$viewport}_r {
-  width: inherit +2%; }

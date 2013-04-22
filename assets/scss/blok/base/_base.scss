@@ -1,0 +1,25 @@
+* {
+  @include box-sizing(border-box);
+}
+body {
+  margin: 0;
+  font: {
+  	family: $body-font-family;
+  	size: $base-font-size;
+    weight: $body-weight;
+  }
+  line-height: $base-line-height;
+  color: $body-text-color;
+  background-color: $body-color;
+}
+// Links
+a,
+a:visited {
+	color: $link-normal-color;
+	text-decoration: $link-text-decoration;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $link-hover-color;
+	}
+}
