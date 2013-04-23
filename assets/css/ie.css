@@ -72,6 +72,9 @@ Contact: info@blokgrid.co.uk
   .iex a:visited:focus,
   .iex a:visited:active {
     color: #17b8fb; }
+.iex img {
+  max-width: 100%;
+  height: auto !important; }
 .iex span.amp {
   font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
   font-style: italic; }

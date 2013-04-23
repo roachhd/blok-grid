@@ -23,7 +23,10 @@ a:visited {
 		color: $link-hover-color;
 	}
 }
-
+img {
+  max-width: 100%;
+  height: auto !important;
+}
 span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;

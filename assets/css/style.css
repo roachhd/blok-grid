@@ -85,6 +85,10 @@ a:visited {
   a:visited:active {
     color: #17b8fb; }
 
+img {
+  max-width: 100%;
+  height: auto !important; }
+
 span.amp {
   font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
   font-style: italic; }
