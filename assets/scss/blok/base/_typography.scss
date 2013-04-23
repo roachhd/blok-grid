@@ -1,3 +1,6 @@
+html {
+    -webkit-text-size-adjust: none !important; /* Prevent font scaling in landscape */
+}
 p {
     margin: 0 0 $base-line-height / 2;
 }
@@ -93,7 +96,13 @@ h4 small {
     padding-bottom: ($base-line-height / 2) - 1;
     border-bottom: 1px solid $gray-lighter;
 }
-
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
 ul, ol {
     margin: 0 0 $base-line-height / 2 25px;
     padding: 0;
@@ -160,11 +169,11 @@ address {
     color: $address-color;
     line-height: $base-line-height;
     font: {
-        size: $address-size;
         family: $address-font-family;
         weight: $address-weight;
         style: $address-style;
     }
+    @include adjust-font-size-to($address-size);
 }
 blockquote {
     margin: 0 0 $base-line-height;
@@ -173,7 +182,7 @@ blockquote {
     p {
         margin-bottom: 0;
         font-weight: 300;
-        font-size: $base-font-size * 1.25;
+        @include adjust-font-size-to($base-font-size / 100 * 125);
         line-height: 1.25;
     }
     small {

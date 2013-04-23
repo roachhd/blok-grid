@@ -23,3 +23,24 @@ a:visited {
 		color: $link-hover-color;
 	}
 }
+
+span.amp {
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-style: italic;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0; }
+ 
+.clearfix:after {
+  clear: both; }
+ 
+.clearfix {
+  zoom: 1; }

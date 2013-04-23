@@ -85,6 +85,31 @@ a:visited {
   a:visited:active {
     color: #17b8fb; }
 
+span.amp {
+  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
+  font-style: italic; }
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+html {
+  -webkit-text-size-adjust: none !important;
+  /* Prevent font scaling in landscape */ }
+
 p {
   margin: 0 0 12.5px; }
 
@@ -180,6 +205,11 @@ h4 small {
   padding-bottom: 11.5px;
   border-bottom: 1px solid #eeeeee; }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 ul, ol {
   margin: 0 0 12.5px 25px;
   padding: 0; }
@@ -244,10 +274,11 @@ address {
   margin-bottom: 25px;
   color: #333333;
   line-height: 25px;
-  font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-style: italic !important; }
+  font-style: italic !important;
+  font-size: 1em;
+  line-height: 1.5625em; }
 
 blockquote {
   margin: 0 0 25px;
@@ -256,7 +287,8 @@ blockquote {
   blockquote p {
     margin-bottom: 0;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25em;
+    line-height: 1.25em;
     line-height: 1.25; }
   blockquote small {
     display: block;
@@ -271,7 +303,7 @@ blockquote {
     content: ""; }
 
 [class*='col_'] {
-  padding: 1em;
+  padding: 8px;
   position: relative;
   display: block;
   float: left;
@@ -688,7 +720,7 @@ blockquote {
   padding: 0; }
 
 .zero_p_m_r {
-  padding: 1em; }
+  padding: 8px; }
 
 .zero_p_m_top {
   padding-top: 0; }
@@ -1123,7 +1155,7 @@ blockquote {
     padding: 0; }
 
   .zero_p_w_r {
-    padding: 1em; }
+    padding: 8px; }
 
   .zero_p_w_top {
     padding-top: 0; }
@@ -1557,7 +1589,7 @@ blockquote {
     padding: 0; }
 
   .zero_p_t_r {
-    padding: 1em; }
+    padding: 8px; }
 
   .zero_p_t_top {
     padding-top: 0; }
@@ -1991,7 +2023,7 @@ blockquote {
     padding: 0; }
 
   .zero_p_d_r {
-    padding: 1em; }
+    padding: 8px; }
 
   .zero_p_d_top {
     padding-top: 0; }
@@ -2426,7 +2458,7 @@ blockquote {
     padding: 0; }
 
   .zero_p_s_r {
-    padding: 1em; }
+    padding: 8px; }
 
   .zero_p_s_top {
     padding-top: 0; }
