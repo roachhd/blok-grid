@@ -256,7 +256,7 @@ pre {
   border: solid 1px #e4e4e4;
   background-color: white;
   color: #333333;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: "Courier New", monospace;
   font-weight: 300;
   font-style: normal; }
 
@@ -271,7 +271,7 @@ code {
   background-color: white;
   font-weight: 300;
   font-size: 16px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
+  font-family: "Courier New", monospace; }
 
 address {
   display: block;

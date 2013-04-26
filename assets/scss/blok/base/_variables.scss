@@ -59,23 +59,23 @@ $super-width: 		96%;
 //-------------------------------------------
 
 // Shades 
-$black:      		#000 !default;
-$gray-darker: 		#222 !default;
-$gray-dark:   		#333 !default;
-$gray:       		#555 !default;
-$gray-light:  		#999 !default;
-$gray-lighter:		#eee !default;
-$white:      		#fff !default;
+$black:      		#000;
+$gray-darker: 		#222;
+$gray-dark:   		#333;
+$gray:       		#555;
+$gray-light:  		#999;
+$gray-lighter:		#eee;
+$white:      		#fff;
 
 // Accents 
-$blue:    			#049cdb !default;
-$blue-dark:			#0064cd !default;
-$green:   			#46a546 !default;
-$red:     			#9d261d !default;
-$yellow:  			#ffc40d !default;
-$orange:  			#f89406 !default;
-$pink:    			#c3325f !default;
-$purple:  			#7a43b6 !default;
+$blue:    			#049cdb;
+$blue-dark:			#0064cd;
+$green:   			#46a546;
+$red:     			#9d261d;
+$yellow:  			#ffc40d;
+$orange:  			#f89406;
+$pink:    			#c3325f;
+$purple:  			#7a43b6;
 
 // Custom Colors
 $color01:			#fcfcfc; // Almost White
@@ -135,9 +135,9 @@ $hr-border: 				$gray;
 //-------------------------------------------
 
 // Font Families
-$sans-font-family: 		"Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$serif-font-family:		Georgia, "Times New Roman", Times, serif !default;
-$mono-font-family: 		Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$sans-font-family: 		"Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-font-family:		Georgia, "Times New Roman", Times, serif;
+$mono-font-family: 		"Courier New", monospace;
 
 $heading-font-family: 	$sans-font-family;
 $body-font-family: 		$sans-font-family;
