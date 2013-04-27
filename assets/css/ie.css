@@ -542,22 +542,22 @@ Contact: info@blokgrid.co.uk
 .iex .nth_m_23:nth-child(23n+1),
 .iex .nth_m_24:nth-child(24n+1) {
   clear: both; }
-.iex .zero_p_m {
+.iex .zero_m {
   padding: 0; }
-.iex .zero_p_m_r {
+.iex .zero_m_reset {
   padding: 8px; }
-.iex .zero_p_m_top {
+.iex .zero_m_top {
   padding-top: 0; }
-.iex .zero_p_m_right {
+.iex .zero_m_right {
   padding-right: 0; }
-.iex .zero_p_m_bottom {
+.iex .zero_m_bottom {
   padding-bottom: 0; }
-.iex .zero_p_m_left {
+.iex .zero_m_left {
   padding-left: 0; }
-.iex .zero_p_m_v {
+.iex .zero_m_v {
   padding-top: 0;
   padding-bottom: 0; }
-.iex .zero_p_m_h {
+.iex .zero_m_h {
   padding-right: 0;
   padding-left: 0; }
 .iex .center_m_align {
@@ -570,6 +570,10 @@ Contact: info@blokgrid.co.uk
   float: left; }
 .iex .right_m_float {
   float: right; }
+.iex .hide_m {
+  display: none; }
+.iex .show_m {
+  display: inherit !important; }
 .iex .container {
   padding: 8px;
   width: 100%; }
@@ -840,22 +844,22 @@ Contact: info@blokgrid.co.uk
 .iex .nth_w_23:nth-child(23n+1),
 .iex .nth_w_24:nth-child(24n+1) {
   clear: both; }
-.iex .zero_p_w {
+.iex .zero_w {
   padding: 0; }
-.iex .zero_p_w_r {
+.iex .zero_w_reset {
   padding: 8px; }
-.iex .zero_p_w_top {
+.iex .zero_w_top {
   padding-top: 0; }
-.iex .zero_p_w_right {
+.iex .zero_w_right {
   padding-right: 0; }
-.iex .zero_p_w_bottom {
+.iex .zero_w_bottom {
   padding-bottom: 0; }
-.iex .zero_p_w_left {
+.iex .zero_w_left {
   padding-left: 0; }
-.iex .zero_p_w_v {
+.iex .zero_w_v {
   padding-top: 0;
   padding-bottom: 0; }
-.iex .zero_p_w_h {
+.iex .zero_w_h {
   padding-right: 0;
   padding-left: 0; }
 .iex .center_w_align {
@@ -868,6 +872,10 @@ Contact: info@blokgrid.co.uk
   float: left; }
 .iex .right_w_float {
   float: right; }
+.iex .hide_w {
+  display: none; }
+.iex .show_w {
+  display: inherit !important; }
 .iex .container {
   padding: 8px;
   width: 100%; }
@@ -1138,22 +1146,22 @@ Contact: info@blokgrid.co.uk
 .iex .nth_t_23:nth-child(23n+1),
 .iex .nth_t_24:nth-child(24n+1) {
   clear: both; }
-.iex .zero_p_t {
+.iex .zero_t {
   padding: 0; }
-.iex .zero_p_t_r {
+.iex .zero_t_reset {
   padding: 8px; }
-.iex .zero_p_t_top {
+.iex .zero_t_top {
   padding-top: 0; }
-.iex .zero_p_t_right {
+.iex .zero_t_right {
   padding-right: 0; }
-.iex .zero_p_t_bottom {
+.iex .zero_t_bottom {
   padding-bottom: 0; }
-.iex .zero_p_t_left {
+.iex .zero_t_left {
   padding-left: 0; }
-.iex .zero_p_t_v {
+.iex .zero_t_v {
   padding-top: 0;
   padding-bottom: 0; }
-.iex .zero_p_t_h {
+.iex .zero_t_h {
   padding-right: 0;
   padding-left: 0; }
 .iex .center_t_align {
@@ -1166,6 +1174,10 @@ Contact: info@blokgrid.co.uk
   float: left; }
 .iex .right_t_float {
   float: right; }
+.iex .hide_t {
+  display: none; }
+.iex .show_t {
+  display: inherit !important; }
 .iex .container {
   padding: 8px;
   width: 96%; }
@@ -1436,22 +1448,22 @@ Contact: info@blokgrid.co.uk
 .iex .nth_d_23:nth-child(23n+1),
 .iex .nth_d_24:nth-child(24n+1) {
   clear: both; }
-.iex .zero_p_d {
+.iex .zero_d {
   padding: 0; }
-.iex .zero_p_d_r {
+.iex .zero_d_reset {
   padding: 8px; }
-.iex .zero_p_d_top {
+.iex .zero_d_top {
   padding-top: 0; }
-.iex .zero_p_d_right {
+.iex .zero_d_right {
   padding-right: 0; }
-.iex .zero_p_d_bottom {
+.iex .zero_d_bottom {
   padding-bottom: 0; }
-.iex .zero_p_d_left {
+.iex .zero_d_left {
   padding-left: 0; }
-.iex .zero_p_d_v {
+.iex .zero_d_v {
   padding-top: 0;
   padding-bottom: 0; }
-.iex .zero_p_d_h {
+.iex .zero_d_h {
   padding-right: 0;
   padding-left: 0; }
 .iex .center_d_align {
@@ -1464,6 +1476,10 @@ Contact: info@blokgrid.co.uk
   float: left; }
 .iex .right_d_float {
   float: right; }
+.iex .hide_d {
+  display: none; }
+.iex .show_d {
+  display: inherit !important; }
 .iex .container {
   padding: 8px;
   max-width: 1232px;
@@ -1735,22 +1751,22 @@ Contact: info@blokgrid.co.uk
 .iex .nth_s_23:nth-child(23n+1),
 .iex .nth_s_24:nth-child(24n+1) {
   clear: both; }
-.iex .zero_p_s {
+.iex .zero_s {
   padding: 0; }
-.iex .zero_p_s_r {
+.iex .zero_s_reset {
   padding: 8px; }
-.iex .zero_p_s_top {
+.iex .zero_s_top {
   padding-top: 0; }
-.iex .zero_p_s_right {
+.iex .zero_s_right {
   padding-right: 0; }
-.iex .zero_p_s_bottom {
+.iex .zero_s_bottom {
   padding-bottom: 0; }
-.iex .zero_p_s_left {
+.iex .zero_s_left {
   padding-left: 0; }
-.iex .zero_p_s_v {
+.iex .zero_s_v {
   padding-top: 0;
   padding-bottom: 0; }
-.iex .zero_p_s_h {
+.iex .zero_s_h {
   padding-right: 0;
   padding-left: 0; }
 .iex .center_s_align {
@@ -1763,5 +1779,9 @@ Contact: info@blokgrid.co.uk
   float: left; }
 .iex .right_s_float {
   float: right; }
+.iex .hide_s {
+  display: none; }
+.iex .show_s {
+  display: inherit !important; }
 .iex .container {
   width: 960px; }

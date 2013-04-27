@@ -541,22 +541,22 @@
 .nth_#{$viewport}_24:nth-child(24n+1) {
   clear: both; }
 //zero out padding
-.zero_p_#{$viewport} {
+.zero_#{$viewport} {
   padding: 0; } 
-.zero_p_#{$viewport}_r {
+.zero_#{$viewport}_reset {
   padding: $gutter; }
-.zero_p_#{$viewport}_top {
+.zero_#{$viewport}_top {
   padding-top: 0; }
-.zero_p_#{$viewport}_right {
+.zero_#{$viewport}_right {
   padding-right: 0; }
-.zero_p_#{$viewport}_bottom {
+.zero_#{$viewport}_bottom {
   padding-bottom: 0; }
-.zero_p_#{$viewport}_left {
+.zero_#{$viewport}_left {
   padding-left: 0; }
-.zero_p_#{$viewport}_v {
+.zero_#{$viewport}_v {
   padding-top: 0;
   padding-bottom: 0;}
-.zero_p_#{$viewport}_h {
+.zero_#{$viewport}_h {
   padding-right: 0;
   padding-left: 0;}
 //text align
@@ -571,3 +571,8 @@
   float: left; }
 .right_#{$viewport}_float {
   float: right; }
+//display
+.hide_#{$viewport} {
+  display: none; }
+.show_#{$viewport} {
+  display: inherit !important; }

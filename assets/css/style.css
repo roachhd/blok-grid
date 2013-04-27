@@ -720,29 +720,29 @@ blockquote {
 .nth_m_24:nth-child(24n+1) {
   clear: both; }
 
-.zero_p_m {
+.zero_m {
   padding: 0; }
 
-.zero_p_m_r {
+.zero_m_reset {
   padding: 8px; }
 
-.zero_p_m_top {
+.zero_m_top {
   padding-top: 0; }
 
-.zero_p_m_right {
+.zero_m_right {
   padding-right: 0; }
 
-.zero_p_m_bottom {
+.zero_m_bottom {
   padding-bottom: 0; }
 
-.zero_p_m_left {
+.zero_m_left {
   padding-left: 0; }
 
-.zero_p_m_v {
+.zero_m_v {
   padding-top: 0;
   padding-bottom: 0; }
 
-.zero_p_m_h {
+.zero_m_h {
   padding-right: 0;
   padding-left: 0; }
 
@@ -760,6 +760,12 @@ blockquote {
 
 .right_m_float {
   float: right; }
+
+.hide_m {
+  display: none; }
+
+.show_m {
+  display: inherit !important; }
 
 @media only screen and (min-width: 440px) {
   .container {
@@ -1155,29 +1161,29 @@ blockquote {
   .nth_w_24:nth-child(24n+1) {
     clear: both; }
 
-  .zero_p_w {
+  .zero_w {
     padding: 0; }
 
-  .zero_p_w_r {
+  .zero_w_reset {
     padding: 8px; }
 
-  .zero_p_w_top {
+  .zero_w_top {
     padding-top: 0; }
 
-  .zero_p_w_right {
+  .zero_w_right {
     padding-right: 0; }
 
-  .zero_p_w_bottom {
+  .zero_w_bottom {
     padding-bottom: 0; }
 
-  .zero_p_w_left {
+  .zero_w_left {
     padding-left: 0; }
 
-  .zero_p_w_v {
+  .zero_w_v {
     padding-top: 0;
     padding-bottom: 0; }
 
-  .zero_p_w_h {
+  .zero_w_h {
     padding-right: 0;
     padding-left: 0; }
 
@@ -1194,7 +1200,13 @@ blockquote {
     float: left; }
 
   .right_w_float {
-    float: right; } }
+    float: right; }
+
+  .hide_w {
+    display: none; }
+
+  .show_w {
+    display: inherit !important; } }
 @media only screen and (min-width: 768px) {
   .container {
     padding: 8px;
@@ -1589,29 +1601,29 @@ blockquote {
   .nth_t_24:nth-child(24n+1) {
     clear: both; }
 
-  .zero_p_t {
+  .zero_t {
     padding: 0; }
 
-  .zero_p_t_r {
+  .zero_t_reset {
     padding: 8px; }
 
-  .zero_p_t_top {
+  .zero_t_top {
     padding-top: 0; }
 
-  .zero_p_t_right {
+  .zero_t_right {
     padding-right: 0; }
 
-  .zero_p_t_bottom {
+  .zero_t_bottom {
     padding-bottom: 0; }
 
-  .zero_p_t_left {
+  .zero_t_left {
     padding-left: 0; }
 
-  .zero_p_t_v {
+  .zero_t_v {
     padding-top: 0;
     padding-bottom: 0; }
 
-  .zero_p_t_h {
+  .zero_t_h {
     padding-right: 0;
     padding-left: 0; }
 
@@ -1628,7 +1640,13 @@ blockquote {
     float: left; }
 
   .right_t_float {
-    float: right; } }
+    float: right; }
+
+  .hide_t {
+    display: none; }
+
+  .show_t {
+    display: inherit !important; } }
 @media only screen and (min-width: 960px) {
   .container {
     padding: 8px;
@@ -2023,29 +2041,29 @@ blockquote {
   .nth_d_24:nth-child(24n+1) {
     clear: both; }
 
-  .zero_p_d {
+  .zero_d {
     padding: 0; }
 
-  .zero_p_d_r {
+  .zero_d_reset {
     padding: 8px; }
 
-  .zero_p_d_top {
+  .zero_d_top {
     padding-top: 0; }
 
-  .zero_p_d_right {
+  .zero_d_right {
     padding-right: 0; }
 
-  .zero_p_d_bottom {
+  .zero_d_bottom {
     padding-bottom: 0; }
 
-  .zero_p_d_left {
+  .zero_d_left {
     padding-left: 0; }
 
-  .zero_p_d_v {
+  .zero_d_v {
     padding-top: 0;
     padding-bottom: 0; }
 
-  .zero_p_d_h {
+  .zero_d_h {
     padding-right: 0;
     padding-left: 0; }
 
@@ -2062,7 +2080,13 @@ blockquote {
     float: left; }
 
   .right_d_float {
-    float: right; } }
+    float: right; }
+
+  .hide_d {
+    display: none; }
+
+  .show_d {
+    display: inherit !important; } }
 @media only screen and (min-width: 1232px) {
   .container {
     padding: 8px;
@@ -2458,29 +2482,29 @@ blockquote {
   .nth_s_24:nth-child(24n+1) {
     clear: both; }
 
-  .zero_p_s {
+  .zero_s {
     padding: 0; }
 
-  .zero_p_s_r {
+  .zero_s_reset {
     padding: 8px; }
 
-  .zero_p_s_top {
+  .zero_s_top {
     padding-top: 0; }
 
-  .zero_p_s_right {
+  .zero_s_right {
     padding-right: 0; }
 
-  .zero_p_s_bottom {
+  .zero_s_bottom {
     padding-bottom: 0; }
 
-  .zero_p_s_left {
+  .zero_s_left {
     padding-left: 0; }
 
-  .zero_p_s_v {
+  .zero_s_v {
     padding-top: 0;
     padding-bottom: 0; }
 
-  .zero_p_s_h {
+  .zero_s_h {
     padding-right: 0;
     padding-left: 0; }
 
@@ -2497,4 +2521,10 @@ blockquote {
     float: left; }
 
   .right_s_float {
-    float: right; } }
+    float: right; }
+
+  .hide_s {
+    display: none; }
+
+  .show_s {
+    display: inherit !important; } }
