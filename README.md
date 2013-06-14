@@ -16,32 +16,28 @@ There is also a custom SCSS/CSS files for setting your styles in.
 
 * responsive or adaptive
 * only one distributed grid so it's easy to edit
-* gutters can be margins or padding
 * can select between 1 and 24 columns
 * can set a custom gutter size
 * easy to customise to suit your needs
-* is a great starting point for a project
 
 
 ###Important
 ---
-If you wish to edit the SCSS directly, then you'll need to use it with Compass. By doing this, it offers far more options to you.
+If you wish to edit the SCSS directly, then you should use it with Compass. It is lightly integrated, so is easy enough to adjust for use without it. 
 
 ####Grid
 ---
-The grid system works similar to other grid systems. It is set to work with 12 columns as standard, but this can be adjusted via the settings.scss. 
+The grid system works similar to other grid systems. It is set to work with 12 columns as standard, but this can be adjusted via the variables.scss. 
 
-The difference with this framework is you can select different column sizes for each screen size. 
+The difference with this framework is you can select different column sizes for each screen size. [Example](http://blokgrid.co.uk/?custom_type=how-the-grid-works)
 
 m - Mobile  
-w - Wide (Landscape)  
 t - Tablet  
 d - Desktop  
-s - Super Size Monitor
 
 You have push and pull for each device and also have a nth option for when divs will stack. 
 
-If using nth, you need to apply it for all screens that come after so they can cancel out. 
+If using nth, you need to apply it for all viewports to cancel out nth-child rules that already exist. 
 
 For example, if you use nth in mobile, you must use it for tablet and desktop. If you use it on desktop, then no need to cancel it out. 
 
@@ -49,11 +45,9 @@ You have full control of each element by giving it a set of instructions via cla
 
 ####Internet Explorer
 ---
-The is compatible with older versions of IE. It was using box-sizing and still can do. You can even use margins and box-sizing, however this will only make it compatible with EI8 and thats even depending on the users settings. 
+The is compatible with IE8.  
 
-You can uncomment the box-sizing include in the gridMobile.scss if you wish to use it. 
-
-You can use a polyfill for this and make it work on older versions of IE, but that can conflict with another polyfill like PIE.htc. 
+You can use a polyfill for making box-sizing work with older versions of IE, but that can conflict with another polyfill like PIE.htc. 
 
 Anyway… Enjoy. Share. Fork. 
 
@@ -61,6 +55,12 @@ Jordan.
 
 ####Updates
 ---
+15/06/13
+
+* stripped the system to only the grid and normalize.css for easy integration to other frameworks
+* removed redundant variables
+* clearfix and row are the same thing now, use what you prefer
+
 22/04/13
 
 * restored box-sizing as default method

@@ -242,13 +242,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-* html {
-  font-size: 100%; }
-
-html {
-  font-size: 16px;
-  line-height: 1.5em; }
-
 .clearfix:before,
 .clearfix:after,
 #row:before,

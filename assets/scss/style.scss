@@ -14,13 +14,16 @@ Contact: info@blokgrid.co.uk
 @import "blok/mixins";
 @import "blok/columns";
 @import "blok/gridMobile";
+@import "blok/customMobile";
 
 @media only screen and (min-width: $tablet-break) {
 
 	@import "blok/gridTablet";
+	@import "blok/customTablet";
 }
 
 @media only screen and (min-width: $desktop-break) {
 
 	@import "blok/gridDesktop";
+	@import "blok/customDesktop";
 }
