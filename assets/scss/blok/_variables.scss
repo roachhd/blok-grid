@@ -1,0 +1,37 @@
+//settings
+
+// Baseline Settings
+//-------------------------------------------
+@include establish-baseline;
+
+$base-font-size: 				16px;
+$base-line-height: 				25px;
+$relative-font-sizing: 			true;
+
+// Grid Settings
+//-------------------------------------------
+
+$grid-columns: 	12; //select the number of columns in the grid
+$gutter: 		1em / 2;
+
+// Container Padding
+$mobile-container-padding: 		$gutter / 2;
+$tablet-container-padding: 		$gutter / 2;
+$desktop-container-padding: 	$gutter / 2;
+
+// Break Points
+$tablet-break: 		576px;
+$desktop-break: 	800px;
+
+// Container Widths
+//If you want to have adaptive then uncomment the lines for adaptive and comment the responsive lines.
+
+// Responsive
+$mobile-width: 		100%;
+$tablet-width: 		100%;
+$desktop-width: 	1232px;
+
+// Adaptive
+//$mobile_width: 	320px;
+//$tablet_width: 	$tablet-break;
+//$desktop_width: 	$desktop-break;

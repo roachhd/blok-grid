@@ -1,5 +1,5 @@
 $viewport: d;
 .container {
 	padding: $desktop-container-padding;
-	width: $desktop-width; }
+	max-width: $desktop-width; }
 @import "grid"; 

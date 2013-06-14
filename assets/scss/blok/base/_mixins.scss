@@ -1,7 +1,0 @@
-@mixin round ($radius: 50%) {
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	border-radius: $radius;
-	behavior: url('PIE.htc');
-	position: relative;
-}

@@ -1,7 +1,3 @@
-.row {
-  width: $col_full; }
-.row_#{$viewport} {
-  width: $col_full; }
 .col_#{$viewport}_1 {
   width: $col_1; }
 .col_#{$viewport}_2 {
@@ -559,6 +555,25 @@
 .zero_#{$viewport}_h {
   padding-right: 0;
   padding-left: 0;}
+//zero out padding
+.add_#{$viewport} {
+  padding: $gutter; } 
+.add_#{$viewport}_reset {
+  padding: 0; }
+.add_#{$viewport}_top {
+  padding-top: $gutter; }
+.add_#{$viewport}_right {
+  padding-right: $gutter; }
+.add_#{$viewport}_bottom {
+  padding-bottom: $gutter; }
+.add_#{$viewport}_left {
+  padding-left: $gutter; }
+.add_#{$viewport}_v {
+  padding-top: $gutter;
+  padding-bottom: $gutter;}
+.add_#{$viewport}_h {
+  padding-right: $gutter;
+  padding-left: $gutter;}
 //text align
 .center_#{$viewport}_align  {
   text-align: center; }
