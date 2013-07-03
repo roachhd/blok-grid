@@ -52,31 +52,3 @@ You can use a polyfill for making box-sizing work with older versions of IE, but
 Anyway… Enjoy. Share. Fork. 
 
 Jordan.
-
-####Updates
----
-15/06/13
-
-* stripped the system to only the grid and normalize.css for easy integration to other frameworks
-* removed redundant variables
-* clearfix and row are the same thing now, use what you prefer
-
-22/04/13
-
-* restored box-sizing as default method
-* simplified the SCSS
-* moved IE styles to a separate stylesheet
-* fixed some errors
-
-03/04/13
-
-* removed box-sizing and kept it as an option
-* added margins to the columns
-* margin size can be specified from the settings.scss
-* added column number to the settings.scss so you can use between 1 and 24 columns
-* added nth:child selectors for the extra column amounts.
-* added another 2 breakpoints for landscape mobile and super size desktop
-* only one grid.scss to edit and it is then distributed to the different grids needed using variables
-* separated the custom scss for better oranisation
-* added margin and padding helper classes to the grid
-* included selectivizr for nth:child classes to work in older IE browsers

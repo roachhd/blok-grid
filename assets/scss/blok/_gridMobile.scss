@@ -1,3 +1,26 @@
+.clearfix:before,
+.clearfix:after,
+#row:before,
+#row:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+ 
+.clearfix:after,
+#row:after {
+  clear: both;
+}
+ 
+.clearfix,
+#row {
+  zoom: 1;
+}
 $viewport: m;
 [class*='col_'] { 
   padding: $gutter;
