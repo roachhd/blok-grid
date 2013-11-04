@@ -1,0 +1,36 @@
+@import "compass",
+		"compass/reset",
+		"blokVariables",
+		"blokBase",
+		"blokType",
+		"blokForms";
+
+$v: m;
+.container {
+	padding: { 
+		right: $gutter-container-mobile; 
+		left: $gutter-container-mobile; 
+	}
+}
+@import "blokGrid",
+		"customMobile";
+
+@media only screen and (min-width: $tablet) { $v: t;
+	.container {
+		padding: { 
+			right: $gutter-container-tablet; 
+			left: $gutter-container-tablet; 
+		}
+	}
+	@import "blokGrid",
+			"customTablet";}
+
+@media only screen and (min-width: $desktop) { $v: d;
+	.container {
+		padding: { 
+			right: $gutter-container-desktop; 
+			left: $gutter-container-desktop; 
+		}
+	}
+	@import "blokGrid",
+			"customDesktop";}

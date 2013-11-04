@@ -1,0 +1,62 @@
+// colors
+// http://flatuicolors.com/
+// grey
+$clouds:							rgba(236, 240, 241,1.0);
+$silver:							rgba(189, 195, 199,1.0);
+$concrete:							rgba(149, 165, 166,1.0);
+$asbestos:							rgba(127, 140, 141,1.0);
+// green
+$turquoise:							rgba(26, 188, 156,1.0);
+$emerald:							rgba(46, 204, 113,1.0);
+$nephritis:							rgba(39, 174, 96,1.0);
+$greenSea:							rgba(22, 160, 133,1.0);
+// blue
+$peter-river:						rgba(52, 152, 219,1.0);
+$belize-hole:						rgba(41, 128, 185,1.0);
+// yellow
+$sun-flower:						rgba(241, 196, 15,1.0);
+// orange
+$orange:							rgba(243, 156, 18,1.0);
+$carrot:							rgba(230, 126, 34,1.0);
+$pumpkin:							rgba(211, 84, 0,1.0);
+// red
+$alizarin:							rgba(231, 76, 60,1.0);
+$pomegranate:						rgba(192, 57, 43,1.0);
+// purple
+$amethyst:							rgba(155, 89, 182,1.0);
+$wisteria:							rgba(142, 68, 173,1.0);
+// dark blue
+$wet-asphalt:						rgba(52, 73, 94,1.0);
+$midnight-blue:						rgba(44, 62, 80,1.0);
+
+$lighten:							rbga(255, 255, 255, .5);
+
+// base colours
+
+$color-canvas:						$clouds;
+$color-base:						$alizarin;
+$color-comp:						$wet-asphalt;
+
+// column settings
+
+$column-number:						12;
+$gutter-container:					.75em;
+$gutter-columns:					.75em;
+$gutter-grid:						.75em;
+
+$gutter-container-mobile:			0em;
+$gutter-container-tablet:			0em;
+$gutter-container-desktop:			$gutter-container;
+
+$container-max-width:				1200px;
+
+// viewport sizes
+$tablet:							640px;
+$desktop:							1024px;
+
+
+$base-font-size: 					16px;
+$base-line-height:					24px;
+$base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+@include establish-baseline;

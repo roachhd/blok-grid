@@ -1,0 +1,70 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font: {
+		family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		weight: 300;
+	}
+} // http://css-tricks.com/snippets/css/better-helvetica/
+
+*, *:before, *:after { 
+	@include box-sizing(border-box); 
+} // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.container { 
+	max-width: $container-max-width;
+	min-width: 320px;
+	margin: { 
+		right: auto; 
+		left: auto; 
+	} 
+}
+
+.row, 
+.clearfix { 
+	@include clearfix;
+}
+
+[class*='col-'] { 
+	position: relative; 
+	display: block; 
+	float: left; 
+	padding: { 
+		right: $gutter-columns; 
+		left: $gutter-columns; 
+	}
+
+	&.zero {
+		padding: {
+			right: 0;
+			left: 0;
+		}
+	}
+}
+
+ul[class*='grid-'] {
+	margin: 0;
+	padding: 0;
+
+	>li {
+		float: left;
+		margin: 0;
+		padding: $gutter-grid;
+		list-style: none;
+	}
+
+	&.zero {
+
+		>li {
+			padding: 0;
+		}
+	}
+}

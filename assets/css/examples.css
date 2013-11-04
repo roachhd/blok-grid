@@ -1,0 +1,22 @@
+body {
+  background-color: #e6e6e6;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+
+#masthead {
+  background: #e74c3c;
+  color: #ecf0f1; }
+
+#main #blokGrid {
+  background: transparent;
+  color: #e74c3c; }
+  #main #blokGrid #blokGridExample {
+    padding-top: 1.5em; }
+    #main #blokGrid #blokGridExample .gridOutline {
+      background: #e74c3c;
+      display: block;
+      height: 1.5em;
+      line-height: 1.5em;
+      content: "&nbsp;";
+      -webkit-box-shadow: inset 8px 8px 0px 0px #7b190f;
+      -moz-box-shadow: inset 8px 8px 0px 0px #7b190f;
+      box-shadow: inset 8px 8px 0px 0px #7b190f; }

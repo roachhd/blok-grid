@@ -1,0 +1,168 @@
+html,
+body {
+	font: {
+		size: 1em;
+		family: $base-font-family;
+		weight: 300;
+	}
+}
+
+p {
+	padding: .75em 0;
+	font: {
+		size: 1em;
+		family: $base-font-family;
+		weight: 300;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+
+	&.light,
+	.light {
+		font-weight: 300;
+	}
+
+	&.small,
+	.small {
+		font-size: 80%;
+		line-height: 0;
+	}
+}
+
+h1 {
+	font-size: 1.5000em;
+	line-height: 1em;
+	padding: .5em 0;
+
+	&.sub {
+		margin-top: -1em;
+	}
+}
+h2 {
+	font-size: 1.3750em;
+	line-height: 1.095em;
+	padding: .545em 0;
+
+	&.sub {
+		margin-top: -1.09em;
+	}
+}
+h3 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	padding: .6em 0;
+
+	&.sub {
+		margin-top: -1.2em;
+	}
+}
+h4 {
+	font-size: 1.125em;
+	line-height: 1.34em;
+	padding: .665em 0;
+
+	&.sub {
+		margin-top: -1.33em;
+	}
+}
+h5 {
+	font-size: 1.0000em;
+	line-height: 1.5000em;
+	padding: .75em 0;
+
+	&.sub {
+		margin-top: -1.5em;
+	}
+}
+h6 {
+	font-size: 0.8750em;
+	line-height: 1.7143em;
+	padding: .85715em 0;
+
+	&.sub {
+		margin-top: -1.7143em;
+	}
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: 700;
+}
+
+small {
+	font-size: 70%;
+}
+
+code {
+	font: { // http://css-tricks.com/snippets/css/font-stacks/
+		family: Consolas, Courier, monospace;
+		size: 90%
+	}
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	background: darken(white, 40%);
+	height: .1em;
+	margin: .68em 0;
+
+}
+
+ol,
+ul {
+	padding: .75em 0;
+
+	li {}
+
+	&.num {
+		li {
+			list-style: decimal;
+			list-style-position: inside;
+		}
+	}
+
+	&.disc {
+		li {
+			list-style: disc;
+			list-style-position: inside;
+		}
+	}
+
+	&.square {
+		li {
+			list-style: square;
+			list-style-position: inside;
+		}
+	}
+
+	&.circle {
+		li {
+			list-style: circle;
+			list-style-position: inside;
+		}
+	}
+
+	&.roman {
+		li {
+			list-style-type: lower-roman;
+			list-style-position: inside;
+		}
+	}
+
+	&.inline {
+		li {
+			@include inline-list;
+		}
+	}
+}

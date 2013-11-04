@@ -1,0 +1,176 @@
+// columns
+
+$columnWidth:			100% / $column-number;
+
+[class*='col-#{$v}'] {
+	&.zero {
+		padding: {
+			left: 0;
+			right: 0;
+		}
+	}
+}
+
+@for $i from 1 through $column-number {
+
+	.col-#{$v}-#{$i} { 
+		width: $columnWidth * $i;
+	}
+}
+
+// push & pull
+
+.push-#{$v}-0 {
+	left: 0%;
+}
+
+.pull-#{$v}-0 {
+	left: 0%;
+}
+
+@for $i from 1 through $column-number {
+
+	.push-#{$v}-#{$i} { 
+		left: $columnWidth * $i; 
+	}
+
+	.pull-#{$v}-#{$i} { 
+		left: -$columnWidth * $i; 
+	}
+}
+
+// offset
+
+.off-#{$v}-0 {
+	margin-left: 0%;
+}
+
+@for $i from 1 through $column-number {
+
+	.off-#{$v}-#{$i} { 
+		margin-left: $columnWidth * $i; 
+	}
+}
+
+// nth-child clearing
+
+[class*='nth-#{$v}']:nth-child(n) { 
+	clear: none; 
+}
+
+@for $i from 1 through $column-number {
+
+	.nth-#{$v}-#{$i} { 
+
+		&:nth-child(#{$i}n+1) { 
+			clear: both;
+		}
+	}
+}
+
+// grids
+
+@for $i from 1 through $column-number {
+
+	ul.grid-#{$v}-#{$i} {
+
+		>li {
+			width: 100% / $i;
+
+			&:nth-child(n) {
+				clear: none;
+			}
+
+			&:nth-child(#{$i}n+1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+// hide & show stuff
+
+.hide-#{$v} {
+	display: none;
+}
+.show-#{$v} {
+	display: inherit !important;
+}
+
+// add padding
+
+.pad-top-#{$v}-0 {
+	padding-top: 0;
+}
+.pad-bottom-#{$v}-0 {
+	padding-bottom: 0;
+}
+.pad-top-#{$v}-1 {
+	padding-top: $gutter-columns;
+}
+.pad-bottom-#{$v}-1 {
+	padding-bottom: $gutter-columns;
+}
+.pad-top-#{$v}-2 {
+	padding-top: $gutter-columns * 2;
+}
+.pad-bottom-#{$v}-2 {
+	padding-bottom: $gutter-columns * 2;
+}
+.pad-v-#{$v}-0 {
+	padding: {
+		top: 0;
+		bottom: 0;
+	}
+}
+.pad-v-#{$v}-1 {
+	padding: {
+		top: $gutter-columns;
+		bottom: $gutter-columns;
+	}
+}
+.pad-v-#{$v}-2 {
+	padding: {
+		top: $gutter-columns * 2;
+		bottom: $gutter-columns * 2;
+	}
+}
+
+// add margins
+
+.margin-top-#{$v}-0 {
+	margin-top: $gutter-columns;
+}
+.margin-bottom-#{$v}-0 {
+	margin-bottom: $gutter-columns;
+}
+.margin-top-#{$v}-1 {
+	margin-top: $gutter-columns;
+}
+.margin-bottom-#{$v}-1 {
+	margin-bottom: $gutter-columns;
+}
+.margin-top-#{$v}-2 {
+	margin-top: $gutter-columns * 2;
+}
+.margin-bottom-#{$v}-2 {
+	margin-bottom: $gutter-columns * 2;
+}
+.margin-v-#{$v}-0 {
+	margin: {
+		top: 0;
+		bottom: 0;
+	}
+}
+.margin-v-#{$v}-1 {
+	margin: {
+		top: $gutter-columns;
+		bottom: $gutter-columns;
+	}
+}
+.margin-v-#{$v}-2 {
+	margin: {
+		top: $gutter-columns * 2;
+		bottom: $gutter-columns * 2;
+	}
+}

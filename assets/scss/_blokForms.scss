@@ -1,0 +1,41 @@
+$inputs-list: 'input[type="email"]',
+              'input[type="number"]',
+              'input[type="password"]',
+              'input[type="search"]',
+              'input[type="tel"]',
+              'input[type="text"]',
+              'input[type="url"]',
+              'input[type="color"]',
+              'input[type="date"]',
+              'input[type="datetime"]',
+              'input[type="datetime-local"]',
+              'input[type="month"]',
+              'input[type="time"]',
+              'input[type="week"]';
+
+$unquoted-inputs-list: ();
+@each $input-type in $inputs-list {
+  $unquoted-inputs-list: append($unquoted-inputs-list, unquote($input-type), comma);
+}
+
+$all-text-inputs: $unquoted-inputs-list;
+
+
+form {}
+#{$all-text-inputs},
+textarea {
+	background: white;
+	border: solid 1px $color-base;
+	padding: .5em;
+	max-width: 100%;
+	outline: none;
+	//@include border-radius(3px);
+	&:hover {
+		background: white;
+		border: solid 1px darken($color-base, 20%);
+	}
+	&:focus {
+		background: white;
+		border: solid 1px darken($color-base, 20%);
+	}
+}

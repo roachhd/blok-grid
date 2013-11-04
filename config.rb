@@ -6,7 +6,7 @@ css_dir = "assets/css"
 sass_dir = "assets/scss"
 images_dir = "assets/img"
 javascripts_dir = "assets/js"
-fonts_dir = "assets/fonts"
+fonts_dir = "assets/font"
 
 output_style = :nested
 
@@ -21,4 +21,4 @@ color_output = false
 # project again passing --syntax sass, or you can uncomment this:
 # preferred_syntax = :sass
 # and then run:
-# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+# sass-convert -R --from scss --to sass assets/scss scss && rm -rf sass && mv scss sass
