@@ -263,7 +263,7 @@ textarea {
   padding-right: 0em;
   padding-left: 0em; }
 
-[class*='col-m'].zero {
+[class*='col-m'].zero-m {
   padding-left: 0;
   padding-right: 0; }
 
@@ -614,7 +614,7 @@ ul.grid-m-12 > li {
     padding-right: 0em;
     padding-left: 0em; }
 
-  [class*='col-t'].zero {
+  [class*='col-t'].zero-t {
     padding-left: 0;
     padding-right: 0; }
 
@@ -964,7 +964,7 @@ ul.grid-m-12 > li {
     padding-right: 0.75em;
     padding-left: 0.75em; }
 
-  [class*='col-d'].zero {
+  [class*='col-d'].zero-d {
     padding-left: 0;
     padding-right: 0; }
 

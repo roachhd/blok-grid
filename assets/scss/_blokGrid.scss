@@ -3,7 +3,7 @@
 $columnWidth:			100% / $column-number;
 
 [class*='col-#{$v}'] {
-	&.zero {
+	&.zero-#{$v} {
 		padding: {
 			left: 0;
 			right: 0;
