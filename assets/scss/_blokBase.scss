@@ -21,7 +21,6 @@ img {
 
 .container { 
 	max-width: $container-max-width;
-	min-width: 320px;
 	margin: { 
 		right: auto; 
 		left: auto; 
@@ -31,6 +30,7 @@ img {
 .row, 
 .clearfix { 
 	@include clearfix;
+	clear: both;
 }
 
 [class*='col-'] { 

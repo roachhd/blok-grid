@@ -71,14 +71,14 @@ img {
 
 .container {
   max-width: 1200px;
-  min-width: 320px;
   margin-right: auto;
   margin-left: auto; }
 
 .row,
 .clearfix {
   overflow: hidden;
-  *zoom: 1; }
+  *zoom: 1;
+  clear: both; }
 
 [class*='col-'] {
   position: relative;
